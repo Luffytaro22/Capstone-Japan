@@ -1,1 +1,8 @@
 node_modules/
+# Fonts
+cocogoose-cufonfonts-webfont/example.html
+cocogoose-cufonfonts-webfont/style.css
+Norse-bold/demo.html
+Norse-bold/stylesheet.css
+Norse-bold/demo-files/
+
