@@ -481,10 +481,38 @@ footer {
   #title-second p {
     font-size: 1rem;
   }
+  #logo-section {
+    padding: 0 20%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+  #logo-section #logo-explain p {
+    font-size: 1rem;
+  }
+  #logo-section #logo-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #logo-section #logo-container img {
+    width: 80px;
+  }
+  #logo-section #logo-container #logo-subContainer h1 {
+    font-size: 3rem;
+  }
+  #logo-section #logo-container #logo-subContainer h3 {
+    font-size: 1.4rem;
+  }
+  #logo-section #logo-container #logo-subContainer p {
+    font-size: 0.7rem;
+  }
 }
 @media only screen and (min-width: 1024px) {
   #main-activities {
     padding: 5% 10%;
+  }
+  #logo-section #logo-container {
+    margin-left: 25%;
+    margin-right: 25%;
   }
 }
 
