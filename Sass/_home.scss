@@ -10,6 +10,7 @@ body {
 
 .img-activities {
   width: 100px;
+  height: 100px;
 }
 
 #hamburger-container {
@@ -99,5 +100,46 @@ body {
     padding: 20px 30px;
     border: none;
     align-self: center;
+  }
+}
+
+#main-activities {
+  padding: 20px 15px;
+
+  > h2 {
+    text-align: center;
+    border-bottom: 1px solid #ec5242;
+    padding-bottom: 20px;
+  }
+
+  #activities-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .activities {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    .h2-activities {
+      padding-bottom: 10px;
+    }
+
+    p {
+      font-size: 0.7rem;
+    }
+
+    .p1-activities {
+      font-family: Lato Italic;
+      color: #ec5242;
+      padding-bottom: 2px;
+    }
+
+    .p2-activities {
+      padding-top: 2px;
+    }
   }
 }

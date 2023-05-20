@@ -45,6 +45,7 @@ body {
 
 .img-activities {
   width: 100px;
+  height: 100px;
 }
 
 #hamburger-container {
@@ -128,6 +129,40 @@ body {
   padding: 20px 30px;
   border: none;
   align-self: center;
+}
+
+#main-activities {
+  padding: 20px 15px;
+}
+#main-activities > h2 {
+  text-align: center;
+  border-bottom: 1px solid #ec5242;
+  padding-bottom: 20px;
+}
+#main-activities #activities-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#main-activities .activities {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#main-activities .activities .h2-activities {
+  padding-bottom: 10px;
+}
+#main-activities .activities p {
+  font-size: 0.7rem;
+}
+#main-activities .activities .p1-activities {
+  font-family: Lato Italic;
+  color: #ec5242;
+  padding-bottom: 2px;
+}
+#main-activities .activities .p2-activities {
+  padding-top: 2px;
 }
 
 /*# sourceMappingURL=styles.css.map */
