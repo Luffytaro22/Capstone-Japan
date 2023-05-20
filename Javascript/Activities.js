@@ -36,7 +36,7 @@ const activities = [
     type: '花見',
     description: 'Hanami is the Japanese tradition of observing the beauty of flowers, but this word is generally associated with the period when the cherry blossoms are in bloom and when the Japanese flock to parks and gardens to gaze at their blossoms (sakura).',
     img: 'Images/japanese-hanami.jpg',
-  }
+  },
 ];
 
 /* Loop through the object */
