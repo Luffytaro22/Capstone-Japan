@@ -203,6 +203,25 @@
       }
     }
   }
+
+  #last-festivals {
+    padding-top: 5%;
+  }
+
+  #previous-festivals {
+    flex-direction: row;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+
+    #kyoto-festival,
+    #osaka-festival {
+      padding: 0;
+      width: 100%;
+      height: 150px;
+      padding-top: 10%;
+    }
+  }
 }
 
 @media only screen and (min-width: 1024px) {
