@@ -139,7 +139,13 @@
     flex-wrap: wrap;
 
     .activities {
-      width: 48%;
+      width: 47%;
     }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #main-activities {
+    padding: 5% 10%;
   }
 }

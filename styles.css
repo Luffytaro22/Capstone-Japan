@@ -157,10 +157,10 @@ a {
   padding-bottom: 20px;
 }
 #main-activities #activities-container {
-  margin-top: 20px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
 }
 #main-activities .activities {
   display: flex;
@@ -454,7 +454,12 @@ footer {
     flex-wrap: wrap;
   }
   #main-activities #activities-container .activities {
-    width: 48%;
+    width: 47%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #main-activities {
+    padding: 5% 10%;
   }
 }
 
