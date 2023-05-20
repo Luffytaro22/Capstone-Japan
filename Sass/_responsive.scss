@@ -1,0 +1,30 @@
+@media only screen and (min-width: 375px) {
+  .img-activities {
+    width: 150px;
+    height: 150px;
+  }
+
+  #program {
+
+    .programs {
+      font-size: 0.9rem;
+
+      .title {
+        width: 205px;
+      }
+    }
+  }
+
+  #main-activities {
+
+    .activities {
+      p {
+        font-size: 0.8rem;
+      }
+  
+      .p1-activities {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
