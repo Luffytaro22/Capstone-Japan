@@ -94,4 +94,43 @@
       width: 50%;
     }
   }
+
+  #program {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  #hiden-program {
+    display: block;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  #program #programs-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    p {
+      font-size: 1rem;
+    }
+
+    .title {
+      font-size: 1.5rem;
+    }
+
+    button {
+      display: none;
+    }
+
+    .programs {
+      flex-direction: column;
+      justify-content: flex-start;
+      max-width: 180px;
+      text-align: center;
+    }
+  }
 }

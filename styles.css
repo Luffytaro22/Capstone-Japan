@@ -52,7 +52,8 @@ a {
   color: #272a31;
 }
 
-#hiden-header {
+#hiden-header,
+#hiden-program {
   display: none;
 }
 
@@ -415,6 +416,38 @@ footer {
   }
   #title div:last-child {
     width: 50%;
+  }
+  #program {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  #hiden-program {
+    display: block;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+  }
+  #program #programs-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #program #programs-container p {
+    font-size: 1rem;
+  }
+  #program #programs-container .title {
+    font-size: 1.5rem;
+  }
+  #program #programs-container button {
+    display: none;
+  }
+  #program #programs-container .programs {
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 180px;
+    text-align: center;
   }
 }
 
