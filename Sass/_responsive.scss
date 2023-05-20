@@ -148,6 +148,26 @@
   #partners.hide {
     display: block;
   }
+
+  #title-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+  }
+
+  #title-first {
+    width: 70%;
+    font-size: 2rem;
+  }
+
+  #title-second {
+    width: 70%;
+  }
+
+  #title-second p {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
