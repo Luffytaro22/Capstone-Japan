@@ -90,3 +90,47 @@
     margin-left: 5px;
   }
 }
+
+#last-festivals {
+  text-align: center;
+  padding: 20px 20px;
+
+  h1 {
+    padding-bottom: 10px;
+  }
+
+  p {
+    padding-top: 10px;
+    font-size: 0.8rem;
+    padding-bottom: 30px;
+  }
+}
+
+#previous-festivals {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-family: Lato Light;
+    font-size: 1rem;
+  }
+}
+
+#kyoto-festival {
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./Images/kyoto.jpg");
+  background-size: cover;
+  color: white;
+  padding: 20% 20%;
+}
+
+#osaka-festival {
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./Images/osaka.jpg");
+  background-size: cover;
+  color: white;
+  padding: 20% 20%;
+}

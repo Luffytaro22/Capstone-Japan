@@ -247,6 +247,46 @@ body {
   margin-left: 5px;
 }
 
+#last-festivals {
+  text-align: center;
+  padding: 20px 20px;
+}
+#last-festivals h1 {
+  padding-bottom: 10px;
+}
+#last-festivals p {
+  padding-top: 10px;
+  font-size: 0.8rem;
+  padding-bottom: 30px;
+}
+
+#previous-festivals {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#previous-festivals h1 {
+  font-size: 30px;
+}
+#previous-festivals h3 {
+  font-family: Lato Light;
+  font-size: 1rem;
+}
+
+#kyoto-festival {
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./Images/kyoto.jpg");
+  background-size: cover;
+  color: white;
+  padding: 20% 20%;
+}
+
+#osaka-festival {
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./Images/osaka.jpg");
+  background-size: cover;
+  color: white;
+  padding: 20% 20%;
+}
+
 @media only screen and (min-width: 375px) {
   .img-activities {
     width: 150px;
