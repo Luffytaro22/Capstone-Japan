@@ -449,6 +449,13 @@ footer {
     max-width: 180px;
     text-align: center;
   }
+  #main-activities #activities-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #main-activities #activities-container .activities {
+    width: 48%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

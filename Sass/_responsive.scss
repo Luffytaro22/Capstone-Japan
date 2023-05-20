@@ -133,4 +133,13 @@
       text-align: center;
     }
   }
+
+  #main-activities #activities-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .activities {
+      width: 48%;
+    }
+  }
 }
