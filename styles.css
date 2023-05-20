@@ -1,0 +1,91 @@
+@font-face {
+  font-family: Norse Bold;
+  src: url("./Norse-Bold/Norse-Bold.eot");
+  src: url("./Norse-Bold/Norse-Bold.svg");
+  src: url("./Norse-Bold/Norse-Bold.ttf");
+  src: url("./Norse-Bold/Norse-Bold.woff");
+}
+@font-face {
+  font-family: Cocogoose;
+  src: url("./cocogoose-cufonfonts-webfont/cocogoose_trial.woff");
+}
+@font-face {
+  font-family: "Lato";
+  src: url("./Lato-webfont/Lato-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato Bold";
+  src: url("./Lato-webfont/Lato-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato Thin";
+  src: url("./Lato-webfont/Lato-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato Italic";
+  src: url("./Lato-webfont/Lato-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato Light";
+  src: url("./Lato-webfont/Lato-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato Regular";
+  src: url("./Lato-webfont/Lato-Regular.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Lato Regular;
+  color: #272a31;
+}
+
+.img-activities {
+  width: 100px;
+}
+
+#hamburger-container {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 35px;
+}
+#hamburger-container .hamburguer {
+  background-color: rgb(88, 88, 88);
+  height: 6px;
+  margin-bottom: 5px;
+}
+
+#title {
+  background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0.8)), url("./Images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 20px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+#title div:first-child {
+  opacity: 1;
+  padding-bottom: 10px;
+}
+#title div:first-child h2,
+#title div:first-child h1 {
+  color: #ec5242;
+  font-family: Cocogoose;
+}
+#title div:last-child {
+  padding-bottom: 40px;
+}
+#title div:last-child p:first-child {
+  border: 1px solid white;
+  padding: 10px 20px;
+}
+#title div:last-child h1 {
+  font-family: Cocogoose;
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
