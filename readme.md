@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio: setup and mobile first <a name="about-project"></a>
+# 📖 First Capstone Project <a name="about-project"></a>
 
-**Portfolio: setup and mobile first** is a layout for my future portfolio using Mobile First Responsive Desgin.
+**First Capstone Project** is the first big project at Microverse. The goal is to emulate a Conference Web Page with our own tematic. In my case, I decided to make a web Page about a Japanese Culture Festival.
 
 ## 🛠 Built With <a name="built-with"></a>
 
