@@ -50,12 +50,12 @@ activities.forEach((activity) => {
   const p2 = document.createElement('p');
 
   /* Adding classes and attributes */
-  container.classList.add = 'activities';
-  img.classList.add = 'img-activities';
-  div.classList.add = 'div-activities';
-  h2.classList.add = 'h2-activities';
-  p1.classList.add = 'p1-activities';
-  p2.classList.add = 'p2-activities';
+  container.classList.add('activities');
+  img.classList.add('img-activities');
+  div.classList.add('div-activities');
+  h2.classList.add('h2-activities');
+  p1.classList.add('p1-activities');
+  p2.classList.add('p2-activities');
 
   /* Adding the content */
   h2.textContent = activity.activity;
