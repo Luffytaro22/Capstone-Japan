@@ -405,6 +405,17 @@ footer {
     padding: 10px 10px;
     color: #ec5242;
   }
+  #title {
+    padding-left: 20%;
+    height: 100vh;
+  }
+  #title div:first-child {
+    font-size: 2rem;
+    width: 60%;
+  }
+  #title div:last-child {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
