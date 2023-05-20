@@ -222,6 +222,15 @@
       padding-top: 10%;
     }
   }
+
+  #partners.hide-about {
+    display: none;
+  }
+
+  footer.style-about {
+    background-color: #272a31;
+    color: white;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
