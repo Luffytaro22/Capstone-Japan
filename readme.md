@@ -33,7 +33,10 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
->HTML, CSS
+* HTML
+* CSS
+* Javascript
+* Sass
 
 <!-- Features -->
 
@@ -47,7 +50,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://luffytaro22.github.io/Portfolio-Mobile-First-Skeleton/)
+- [Live Demo Link](https://luffytaro22.github.io/Capstone-Japan/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -58,11 +61,11 @@
 ### Prerequisites
 In order to run this project you need:
 * Internet connection.
-* Any device with a width of at least 375px.
+* Any device with a width of at least 320px.
 
 ### Setup
 Clone this repository to your desired folder:
-`git clone https://github.com/Luffytaro22/Portfolio-Mobile-First-Skeleton.git`
+`git clone https://github.com/Luffytaro22/Capstone-Japan.git`
 
 ### Deployment
 You can deploy this project using: [This Link](https://luffytaro22.github.io/Portfolio-Mobile-First-Skeleton/)
@@ -85,9 +88,9 @@ You can deploy this project using: [This Link](https://luffytaro22.github.io/Por
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-* A pop-up for the menu.
-* A more optimized display.
-* More readable CSS code.
+* Desktop Version.
+* Hamburguer Menu.
+* Users Interaction.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -110,7 +113,17 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thanks Microverse for this template.
+I would give credits to the following:
+* **Microverse** for this readme template.
+* <a href="https://www.behance.net/adagio07" target="_blank" rel="noopener">Cindy Shin in Behance</a> for this web layout.
+* <a href="https://www.freepik.es/foto-gratis/vista-lateral-roll-salsa-soja-palillos-mano_7727088.htm#query=cocina%20japonesa&position=0&from_view=search&track=ais" target="_blank" rel="noopener">8photo in Freepik</a> for the gastronomy image.
+* <a href="https://www.freepik.es/foto-gratis/paraguas-wagasa-japones-ayudado-mujer-joven_30117608.htm#query=ropa%20japonesa&position=20&from_view=search&track=ais" target="_blank" rel="noopener">Freepik</a> for the Outfit image.
+* <a href="https://www.freepik.es/foto-gratis/cerca-al-maestro-haciendo-caligrafia-japonesa-llamado-shodo_18677092.htm#query=caligrafia%20japonesa&position=9&from_view=search&track=ais" target="_blank" rel="noopener">Freepik</a> for the Writing image.
+* <a href="https://www.freepik.es/foto-gratis/santuario-fushimi-inari-kioto-japon_10695627.htm#query=arquitectura%20japonesa&position=10&from_view=search&track=ais" target="_blank" rel="noopener">tawatchai07 in Freepik</a> for the Architecture image.
+* <a href="https://www.freepik.es/foto-gratis/te-agua-marron-fondo-ceramica_1164036.htm#query=te%20japones&position=2&from_view=search&track=ais" target="_blank" rel="noopener">xb100 in Freepik </a> for the Tea Ceremony image.
+* <a href="https://www.freepik.es/foto-gratis/flores-cerezo-castillo-himeji-japon_10824398.htm#query=sakura%20japon&position=41&from_view=search&track=ais" target="_blank" rel="noopener">tawatchai07 in Freepik </a> for the Hanami image.
+* <a href="https://www.freepik.es/foto-gratis/pagoda-roja-chureito-japon-monte-fuji-detras_8281314.htm#query=japan&position=6&from_view=search&track=sph" target="_blank" rel="noopener">wirestock in Freepik </a> for the Mount Fuji background image.
+* <a href="https://www.flaticon.es/iconos-gratis/japon" target="_blank" rel="noopener">Freepik</a> for the Torii Arch in the logo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
