@@ -52,3 +52,42 @@ body {
     }
   }
 }
+
+#program {
+  background-color: #272a31;
+  background-image: url("./Images/pattern_bg.png");
+  background-repeat: repeat;
+  padding: 30px 20px;
+
+  h2 {
+    text-align: center;
+    border-bottom: 1px solid #ec5242;
+    padding-bottom: 20px;
+  }
+
+  .programs .title {
+    color: #ec5242;
+    width: 173px;
+  }
+
+  h2,
+  .programs p:last-child {
+    color: white;
+  }
+
+  #programs-container {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .programs {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background-color: rgba(211, 211, 211, 0.1);
+      padding: 20px 20px;
+    }
+  }
+}
