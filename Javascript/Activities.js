@@ -38,3 +38,35 @@ const activities = [
         img: 'Images/japanese-hanami.jpg',
     }
 ];
+
+/* Loop through the object */
+activities.forEach((activity) => {
+    /* Create elements */
+    const container = document.createElement('div');
+    const img = document.createElement('img');
+    const div = document.createElement('div');
+    const h2 = document.createElement('h2');
+    const p1 = document.createElement('p');
+    const p2 = document.createElement('p');
+
+    /* Adding classes and attributes */
+    container.classList.add = 'activities';
+    img.classList.add = 'img-activities';
+    div.classList.add = 'div-activities';
+    h2.classList.add = 'h2-activities';
+    p1.classList.add = 'p1-activities';
+    p2.classList.add = 'p2-activities';
+
+    /* Adding the content */
+    h2.textContent = activity.activity;
+    img.src = activity.img;
+    p1.textContent = activity.type;
+    p2.textContent = activity.description;
+
+    /* Append the elements */
+    div.appendChild(h2);
+    div.appendChild(p1);
+    div.appendChild(p2);
+    container.appendChild(img);
+    container.appendChild(div);
+});
