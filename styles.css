@@ -168,6 +168,40 @@ body {
   padding-top: 2px;
 }
 
+#title-about {
+  background-color: rgba(211, 211, 211, 0.3);
+  padding: 0 20px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+#title-first {
+  color: #ec5242;
+  font-family: Cocogoose;
+}
+#title-first h1 {
+  padding-bottom: 20px;
+}
+
+#title-second p {
+  font-size: 0.8rem;
+}
+#title-second p:first-child {
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  padding: 20px 10px;
+}
+#title-second p:nth-child(2) {
+  padding-top: 20px;
+}
+#title-second p:last-child {
+  padding-top: 10px;
+  font-family: Lato Bold;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
 @media only screen and (min-width: 375px) {
   .img-activities {
     width: 150px;
