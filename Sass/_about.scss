@@ -162,3 +162,24 @@
     width: 100px;
   }
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 20px;
+}
+
+#logo-footer {
+  display: flex;
+  align-items: center;
+
+  h1 {
+    font-family: Norse Bold;
+  }
+}
+
+#footer-info {
+  font-size: 0.7rem;
+}
