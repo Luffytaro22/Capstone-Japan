@@ -28,3 +28,57 @@
     }
   }
 }
+
+@media only screen and (min-width: 768px) {
+  #hamburger-container {
+    display: none;
+  }
+
+  #hiden-header {
+    display: block;
+  }
+
+  #social-media {
+    background-color: #272a31;
+    color: white;
+    font-size: 0.9rem;
+    padding: 10px 0;
+    padding-right: 10%;
+  }
+
+  #social-list,
+  #nav-bar,
+  #nav-list {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #nav-bar {
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    #logo-container {
+      padding: 0;
+      border: none;
+
+      img {
+        width: 50px;
+      }
+    }
+  }
+
+  #nav-list {
+    .nav-sections:first-child a {
+      color: #ec5242;
+    }
+
+    .nav-sections:last-child {
+      border: 3px solid #ec5242;
+      padding: 10px 10px;
+      color: #ec5242;
+    }
+  }
+  
+}
