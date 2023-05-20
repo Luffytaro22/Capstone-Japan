@@ -1,4 +1,4 @@
-const container = document.querySelector('#activities-container');
+const mainContainer = document.querySelector('#activities-container');
 
 const activities = [
     {
@@ -29,7 +29,7 @@ const activities = [
         activity: 'Architecture',
         type: '日本建築',
         description: 'Mostly, the buildings that have survived to this day and that show characteristics of traditional Japanese architecture are castles, Buddhist temples, and Shinto shrines.',
-        img: 'Images/japanese-architecture.jpg',
+        img: 'Images/japanese-buildings.jpg',
     },
     {
         activity: 'Hanami',
@@ -69,4 +69,5 @@ activities.forEach((activity) => {
     div.appendChild(p2);
     container.appendChild(img);
     container.appendChild(div);
+    mainContainer.appendChild(container);
 });
