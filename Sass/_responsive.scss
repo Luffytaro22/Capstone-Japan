@@ -148,10 +148,100 @@
   #partners.hide {
     display: block;
   }
+
+  #title-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+  }
+
+  #title-first {
+    width: 70%;
+    font-size: 2rem;
+  }
+
+  #title-second {
+    width: 70%;
+  }
+
+  #title-second p {
+    font-size: 1rem;
+  }
+
+  #logo-section {
+    padding: 0 20%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+
+    #logo-explain {
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    #logo-container {
+      padding-left: 0;
+      padding-right: 0;
+
+      img {
+        width: 80px;
+      }
+
+      #logo-subContainer {
+        h1 {
+          font-size: 3rem;
+        }
+
+        h3 {
+          font-size: 1.4rem;
+        }
+
+        p {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+
+  #last-festivals {
+    padding-top: 5%;
+  }
+
+  #previous-festivals {
+    flex-direction: row;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+
+    #kyoto-festival,
+    #osaka-festival {
+      padding: 0;
+      width: 100%;
+      height: 150px;
+      padding-top: 10%;
+    }
+  }
+
+  #partners.hide-about {
+    display: none;
+  }
+
+  footer.style-about {
+    background-color: #272a31;
+    color: white;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
   #main-activities {
     padding: 5% 10%;
+  }
+
+  #logo-section {
+    #logo-container {
+      margin-left: 25%;
+      margin-right: 25%;
+    }
   }
 }
