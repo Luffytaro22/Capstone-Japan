@@ -41,28 +41,25 @@ a {
   }
 }
 
-#program {
+#main-activities .activities p {
+  font-size: 0.7rem;
+}
 
-  h2 {
-    text-align: center;
-    border-bottom: 1px solid #ec5242;
-    padding-bottom: 20px;
-    color: white;
-  }
+#program h2 {
+  text-align: center;
+  border-bottom: 1px solid #ec5242;
+  padding-bottom: 20px;
+  color: white;
+}
 
-  .programs p:last-child {
+#program .programs p:last-child {
     color: white;
-  }
 }
 
 #main-activities > h2 {
   text-align: center;
   border-bottom: 1px solid #ec5242;
   padding-bottom: 20px;
-}
-
-#main-activities .activities p {
-  font-size: 0.7rem;
 }
 
 #title {
@@ -93,7 +90,7 @@ a {
     }
 
     h1 {
-      font-family: Cocogoose;
+      font-family: Cocogoose, sans-serif, serif;
       padding-top: 10px;
     }
   }
@@ -160,7 +157,7 @@ a {
     }
 
     .p1-activities {
-      font-family: Lato Italic, sans-serif;
+      font-family: Lato Italic, sans-serif, serif;
       color: #ec5242;
       padding-bottom: 2px;
     }
