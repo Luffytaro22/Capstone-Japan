@@ -53,7 +53,8 @@ a {
 }
 
 #hiden-header,
-#hiden-program {
+#hiden-program,
+.hide {
   display: none;
 }
 
@@ -408,7 +409,6 @@ footer {
   }
   #title {
     padding-left: 20%;
-    height: 100vh;
   }
   #title div:first-child {
     font-size: 2rem;
@@ -455,6 +455,12 @@ footer {
   }
   #main-activities #activities-container .activities {
     width: 47%;
+  }
+  .hide {
+    display: flex;
+  }
+  #partners.hide {
+    display: block;
   }
 }
 @media only screen and (min-width: 1024px) {

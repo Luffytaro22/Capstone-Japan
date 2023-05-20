@@ -83,7 +83,6 @@
   
   #title {
     padding-left: 20%;
-    height: 100vh;
 
     div:first-child {
       font-size: 2rem;
@@ -141,6 +140,14 @@
     .activities {
       width: 47%;
     }
+  }
+
+  .hide {
+    display: flex;
+  }
+
+  #partners.hide {
+    display: block;
   }
 }
 
