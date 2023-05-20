@@ -287,6 +287,31 @@ body {
   padding: 20% 20%;
 }
 
+#partners {
+  background-color: #272a31;
+  text-align: center;
+  padding: 20px 20px;
+}
+#partners > h1 {
+  color: white;
+  padding-bottom: 10px;
+}
+
+#partners-container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#partners-container .partners {
+  color: gray;
+}
+#partners-container #airbnb {
+  width: 100px;
+}
+
 @media only screen and (min-width: 375px) {
   .img-activities {
     width: 150px;
