@@ -5,7 +5,6 @@
   }
 
   #program {
-
     .programs {
       font-size: 0.9rem;
 
@@ -16,15 +15,143 @@
   }
 
   #main-activities {
-
     .activities {
       p {
         font-size: 0.8rem;
       }
-  
+
       .p1-activities {
         padding-bottom: 10px;
       }
     }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #hamburger-container {
+    display: none;
+  }
+
+  #hiden-header {
+    display: block;
+  }
+
+  #social-media {
+    background-color: #272a31;
+    color: white;
+    font-size: 0.9rem;
+    padding: 10px 0;
+    padding-right: 10%;
+  }
+
+  #social-list,
+  #nav-bar,
+  #nav-list {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #nav-bar {
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    #logo-container {
+      padding: 0;
+      border: none;
+
+      img {
+        width: 50px;
+      }
+    }
+  }
+
+  #nav-list {
+    .nav-sections:first-child a {
+      color: #ec5242;
+    }
+
+    .nav-sections:last-child {
+      border: 3px solid #ec5242;
+      padding: 10px 10px;
+      color: #ec5242;
+    }
+  }
+
+  #title {
+    padding-left: 20%;
+
+    div:first-child {
+      font-size: 2rem;
+      width: 60%;
+    }
+
+    div:last-child {
+      width: 50%;
+    }
+  }
+
+  #program {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  #hiden-program {
+    display: block;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  #program #programs-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    p {
+      font-size: 1rem;
+    }
+
+    .title {
+      font-size: 1.5rem;
+    }
+
+    button {
+      display: none;
+    }
+
+    .programs {
+      flex-direction: column;
+      justify-content: flex-start;
+      max-width: 180px;
+      text-align: center;
+    }
+  }
+
+  #main-activities #activities-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .activities {
+      width: 47%;
+    }
+  }
+
+  .hide {
+    display: flex;
+  }
+
+  #partners.hide {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #main-activities {
+    padding: 5% 10%;
   }
 }

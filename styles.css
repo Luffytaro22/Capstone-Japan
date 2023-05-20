@@ -10,10 +10,6 @@
   src: url("./cocogoose-cufonfonts-webfont/cocogoose_trial.woff");
 }
 @font-face {
-  font-family: "Lato";
-  src: url("./Lato-webfont/Lato-Black.ttf") format("truetype");
-}
-@font-face {
   font-family: "Lato Bold";
   src: url("./Lato-webfont/Lato-Bold.ttf") format("truetype");
 }
@@ -39,8 +35,23 @@
 }
 
 body {
-  font-family: Lato Regular;
+  font-family: Lato Regular, sans-serif;
   color: #272a31;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+#hiden-header,
+#hiden-program,
+.hide {
+  display: none;
 }
 
 .img-activities {
@@ -60,6 +71,27 @@ body {
   margin-bottom: 5px;
 }
 
+#main-activities .activities p {
+  font-size: 0.7rem;
+}
+
+#program h2 {
+  text-align: center;
+  border-bottom: 1px solid #ec5242;
+  padding-bottom: 20px;
+  color: white;
+}
+
+#program .programs p:last-child {
+  color: white;
+}
+
+#main-activities > h2 {
+  text-align: center;
+  border-bottom: 1px solid #ec5242;
+  padding-bottom: 20px;
+}
+
 #title {
   background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0.8)), url("./Images/background.jpg");
   background-size: cover;
@@ -75,7 +107,7 @@ body {
 #title div:first-child h2,
 #title div:first-child h1 {
   color: #ec5242;
-  font-family: Cocogoose;
+  font-family: Cocogoose, sans-serif;
 }
 #title div:last-child {
   padding-bottom: 40px;
@@ -85,7 +117,7 @@ body {
   padding: 10px 20px;
 }
 #title div:last-child h1 {
-  font-family: Cocogoose;
+  font-family: Cocogoose, sans-serif, serif;
   padding-top: 10px;
 }
 
@@ -95,21 +127,12 @@ body {
   background-repeat: repeat;
   padding: 30px 20px;
 }
-#program h2 {
-  text-align: center;
-  border-bottom: 1px solid #ec5242;
-  padding-bottom: 20px;
-}
 #program .programs {
   font-size: 0.7rem;
 }
 #program .programs .title {
   color: #ec5242;
   width: 173px;
-}
-#program h2,
-#program .programs p:last-child {
-  color: white;
 }
 #program #programs-container {
   padding-top: 30px;
@@ -137,16 +160,11 @@ body {
 #main-activities {
   padding: 20px 15px;
 }
-#main-activities > h2 {
-  text-align: center;
-  border-bottom: 1px solid #ec5242;
-  padding-bottom: 20px;
-}
 #main-activities #activities-container {
-  margin-top: 20px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
 }
 #main-activities .activities {
   display: flex;
@@ -156,11 +174,8 @@ body {
 #main-activities .activities .h2-activities {
   padding-bottom: 10px;
 }
-#main-activities .activities p {
-  font-size: 0.7rem;
-}
 #main-activities .activities .p1-activities {
-  font-family: Lato Italic;
+  font-family: Lato Italic, sans-serif, serif;
   color: #ec5242;
   padding-bottom: 2px;
 }
@@ -178,10 +193,28 @@ body {
 
 #title-first {
   color: #ec5242;
-  font-family: Cocogoose;
+  font-family: Cocogoose, sans-serif;
 }
 #title-first h1 {
   padding-bottom: 20px;
+}
+
+#logo-explain p {
+  padding-top: 10px;
+  font-size: 0.8rem;
+  padding-bottom: 20px;
+}
+
+#logo-subContainer p {
+  font-size: 0.5rem;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+#last-festivals p {
+  padding-top: 10px;
+  font-size: 0.8rem;
+  padding-bottom: 30px;
 }
 
 #title-second p {
@@ -197,7 +230,7 @@ body {
 }
 #title-second p:last-child {
   padding-top: 10px;
-  font-family: Lato Bold;
+  font-family: Lato Bold, sans-serif, serif;
   text-decoration: underline;
   text-decoration-skip-ink: none;
 }
@@ -216,11 +249,6 @@ body {
   padding-bottom: 10px;
   border-bottom: 1px solid #ec5242;
 }
-#logo-explain p {
-  padding-top: 10px;
-  font-size: 0.8rem;
-  padding-bottom: 20px;
-}
 
 #logo-container {
   border: 1px solid #d3d3d3;
@@ -231,15 +259,10 @@ body {
 
 #logo-subContainer h1,
 #logo-subContainer h3 {
-  font-family: Norse Bold;
+  font-family: Norse Bold, sans-serif, serif;
 }
 #logo-subContainer h3 {
   font-size: 0.9rem;
-}
-#logo-subContainer p {
-  font-size: 0.5rem;
-  border-top: 1px solid #d3d3d3;
-  border-bottom: 1px solid #d3d3d3;
 }
 #logo-subContainer #logo-place {
   padding-left: 5px;
@@ -254,11 +277,6 @@ body {
 #last-festivals h1 {
   padding-bottom: 10px;
 }
-#last-festivals p {
-  padding-top: 10px;
-  font-size: 0.8rem;
-  padding-bottom: 30px;
-}
 
 #previous-festivals {
   display: flex;
@@ -269,7 +287,7 @@ body {
   font-size: 30px;
 }
 #previous-festivals h3 {
-  font-family: Lato Light;
+  font-family: Lato Light, sans-serif;
   font-size: 1rem;
 }
 
@@ -325,7 +343,7 @@ footer {
   align-items: center;
 }
 #logo-footer h1 {
-  font-family: Norse Bold;
+  font-family: Norse Bold, sans-serif, serif;
 }
 
 #footer-info {
@@ -348,6 +366,109 @@ footer {
   }
   #main-activities .activities .p1-activities {
     padding-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #hamburger-container {
+    display: none;
+  }
+  #hiden-header {
+    display: block;
+  }
+  #social-media {
+    background-color: #272a31;
+    color: white;
+    font-size: 0.9rem;
+    padding: 10px 0;
+    padding-right: 10%;
+  }
+  #social-list,
+  #nav-bar,
+  #nav-list {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+  }
+  #nav-bar {
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #nav-bar #logo-container {
+    padding: 0;
+    border: none;
+  }
+  #nav-bar #logo-container img {
+    width: 50px;
+  }
+  #nav-list .nav-sections:first-child a {
+    color: #ec5242;
+  }
+  #nav-list .nav-sections:last-child {
+    border: 3px solid #ec5242;
+    padding: 10px 10px;
+    color: #ec5242;
+  }
+  #title {
+    padding-left: 20%;
+  }
+  #title div:first-child {
+    font-size: 2rem;
+    width: 60%;
+  }
+  #title div:last-child {
+    width: 50%;
+  }
+  #program {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  #hiden-program {
+    display: block;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+  }
+  #program #programs-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #program #programs-container p {
+    font-size: 1rem;
+  }
+  #program #programs-container .title {
+    font-size: 1.5rem;
+  }
+  #program #programs-container button {
+    display: none;
+  }
+  #program #programs-container .programs {
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 180px;
+    text-align: center;
+  }
+  #main-activities #activities-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #main-activities #activities-container .activities {
+    width: 47%;
+  }
+  .hide {
+    display: flex;
+  }
+  #partners.hide {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #main-activities {
+    padding: 5% 10%;
   }
 }
 

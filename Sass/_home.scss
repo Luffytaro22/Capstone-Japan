@@ -4,8 +4,23 @@
 }
 
 body {
-  font-family: Lato Regular;
+  font-family: Lato Regular, sans-serif;
   color: #272a31;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+#hiden-header,
+#hiden-program,
+.hide {
+  display: none;
 }
 
 .img-activities {
@@ -18,11 +33,33 @@ body {
   top: 15px;
   left: 20px;
   width: 35px;
+
   .hamburguer {
     background-color: rgb(88, 88, 88);
     height: 6px;
     margin-bottom: 5px;
   }
+}
+
+#main-activities .activities p {
+  font-size: 0.7rem;
+}
+
+#program h2 {
+  text-align: center;
+  border-bottom: 1px solid #ec5242;
+  padding-bottom: 20px;
+  color: white;
+}
+
+#program .programs p:last-child {
+  color: white;
+}
+
+#main-activities > h2 {
+  text-align: center;
+  border-bottom: 1px solid #ec5242;
+  padding-bottom: 20px;
 }
 
 #title {
@@ -32,23 +69,28 @@ body {
   padding: 0 20px;
   padding-top: 100px;
   padding-bottom: 20px;
+
   div:first-child {
     opacity: 1;
     padding-bottom: 10px;
+
     h2,
     h1 {
       color: #ec5242;
-      font-family: Cocogoose;
+      font-family: Cocogoose, sans-serif;
     }
   }
+
   div:last-child {
     padding-bottom: 40px;
+
     p:first-child {
       border: 1px solid white;
       padding: 10px 20px;
     }
+
     h1 {
-      font-family: Cocogoose;
+      font-family: Cocogoose, sans-serif, serif;
       padding-top: 10px;
     }
   }
@@ -60,12 +102,6 @@ body {
   background-repeat: repeat;
   padding: 30px 20px;
 
-  h2 {
-    text-align: center;
-    border-bottom: 1px solid #ec5242;
-    padding-bottom: 20px;
-  }
-
   .programs {
     font-size: 0.7rem;
   }
@@ -73,11 +109,6 @@ body {
   .programs .title {
     color: #ec5242;
     width: 173px;
-  }
-
-  h2,
-  .programs p:last-child {
-    color: white;
   }
 
   #programs-container {
@@ -109,17 +140,11 @@ body {
 #main-activities {
   padding: 20px 15px;
 
-  > h2 {
-    text-align: center;
-    border-bottom: 1px solid #ec5242;
-    padding-bottom: 20px;
-  }
-
   #activities-container {
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
   }
 
   .activities {
@@ -131,12 +156,8 @@ body {
       padding-bottom: 10px;
     }
 
-    p {
-      font-size: 0.7rem;
-    }
-
     .p1-activities {
-      font-family: Lato Italic;
+      font-family: Lato Italic, sans-serif, serif;
       color: #ec5242;
       padding-bottom: 2px;
     }
