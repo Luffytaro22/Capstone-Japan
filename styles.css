@@ -73,6 +73,7 @@ a {
   animation-name: menu;
   animation-duration: 0.5s;
   animation-timing-function: ease;
+  overflow: scroll;
 }
 #mobile-menu #x-container {
   top: 15px;

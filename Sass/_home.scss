@@ -42,6 +42,7 @@ a {
   animation-name: menu;
   animation-duration: 0.5s;
   animation-timing-function: ease;
+  overflow: scroll;
 
   #x-container {
     top: 15px;
