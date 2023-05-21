@@ -139,6 +139,18 @@
     }
   }
 
+  #main-activities {
+    background-color: #e7e7e7;
+
+    .activities {
+      gap: 30px;
+    }
+
+    .div-activities {
+      align-self: flex-end;
+    }
+  }
+
   #main-activities #activities-container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -150,10 +162,15 @@
 
   .hide {
     display: flex;
+    background-color: #d3d3d3;
   }
 
   #partners.hide {
     display: block;
+
+    h1 {
+      color: gray;
+    }
   }
 
   #title-about {

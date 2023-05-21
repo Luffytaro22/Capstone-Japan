@@ -557,6 +557,15 @@ footer {
     max-width: 180px;
     text-align: center;
   }
+  #main-activities {
+    background-color: #e7e7e7;
+  }
+  #main-activities .activities {
+    gap: 30px;
+  }
+  #main-activities .div-activities {
+    align-self: flex-end;
+  }
   #main-activities #activities-container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -566,9 +575,13 @@ footer {
   }
   .hide {
     display: flex;
+    background-color: #d3d3d3;
   }
   #partners.hide {
     display: block;
+  }
+  #partners.hide h1 {
+    color: gray;
   }
   #title-about {
     display: flex;
