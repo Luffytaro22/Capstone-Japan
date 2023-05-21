@@ -68,7 +68,7 @@ Clone this repository to your desired folder:
 `git clone https://github.com/Luffytaro22/Capstone-Japan.git`
 
 ### Deployment
-You can deploy this project using: [This Link]([https://luffytaro22.github.io/Portfolio-Mobile-First-Skeleton/](https://luffytaro22.github.io/Capstone-Japan/))
+You can deploy this project using: [This Link](https://luffytaro22.github.io/Capstone-Japan/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
