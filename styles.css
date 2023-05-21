@@ -1,41 +1,34 @@
 @font-face {
   font-family: Norse Bold;
-  src: url('./Norse-Bold/Norse-Bold.eot');
-  src: url('./Norse-Bold/Norse-Bold.svg');
-  src: url('./Norse-Bold/Norse-Bold.ttf');
-  src: url('./Norse-Bold/Norse-Bold.woff');
+  src: url("./Norse-Bold/Norse-Bold.eot");
+  src: url("./Norse-Bold/Norse-Bold.svg");
+  src: url("./Norse-Bold/Norse-Bold.ttf");
+  src: url("./Norse-Bold/Norse-Bold.woff");
 }
-
 @font-face {
   font-family: Cocogoose;
-  src: url('./cocogoose-cufonfonts-webfont/cocogoose_trial.woff');
+  src: url("./cocogoose-cufonfonts-webfont/cocogoose_trial.woff");
 }
-
 @font-face {
-  font-family: 'Lato Bold';
-  src: url('./Lato-webfont/Lato-Bold.ttf') format('truetype');
+  font-family: "Lato Bold";
+  src: url("./Lato-webfont/Lato-Bold.ttf") format("truetype");
 }
-
 @font-face {
-  font-family: 'Lato Thin';
-  src: url('./Lato-webfont/Lato-Thin.ttf') format('truetype');
+  font-family: "Lato Thin";
+  src: url("./Lato-webfont/Lato-Thin.ttf") format("truetype");
 }
-
 @font-face {
-  font-family: 'Lato Italic';
-  src: url('./Lato-webfont/Lato-Italic.ttf') format('truetype');
+  font-family: "Lato Italic";
+  src: url("./Lato-webfont/Lato-Italic.ttf") format("truetype");
 }
-
 @font-face {
-  font-family: 'Lato Light';
-  src: url('./Lato-webfont/Lato-Light.ttf') format('truetype');
+  font-family: "Lato Light";
+  src: url("./Lato-webfont/Lato-Light.ttf") format("truetype");
 }
-
 @font-face {
-  font-family: 'Lato Regular';
-  src: url('./Lato-webfont/Lato-Regular.ttf') format('truetype');
+  font-family: "Lato Regular";
+  src: url("./Lato-webfont/Lato-Regular.ttf") format("truetype");
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -53,6 +46,10 @@ ul {
 a {
   text-decoration: none;
   color: #272a31;
+}
+
+.text-hide {
+  display: none;
 }
 
 #hiden-header,
@@ -77,23 +74,19 @@ a {
   animation-duration: 0.5s;
   animation-timing-function: ease;
 }
-
 #mobile-menu #x-container {
   top: 15px;
   left: 20px;
   width: 35px;
 }
-
 #mobile-menu #x-container .x {
   height: 3px;
   margin-bottom: 9.5px;
   background-color: white;
 }
-
 #mobile-menu #x-container .x:nth-child(2) {
   background-color: #272a31;
 }
-
 #mobile-menu #x-container .x:first-child {
   animation-name: first;
   animation-duration: 0.5s;
@@ -101,7 +94,6 @@ a {
   transform: rotate(45deg);
   transform-origin: left;
 }
-
 #mobile-menu #x-container .x:last-child {
   animation-name: second;
   animation-duration: 0.5s;
@@ -109,41 +101,33 @@ a {
   transform: rotate(-45deg);
   transform-origin: left;
 }
-
 @keyframes first {
   from {
     transform: rotate(0);
   }
-
   to {
     transform: rotate(45deg);
   }
 }
-
 @keyframes second {
   from {
     transform: rotate(0);
   }
-
   to {
     transform: rotate(-45deg);
   }
 }
-
 @keyframes menu {
   from {
     width: 0;
   }
-
   to {
     width: 100%;
   }
 }
-
 #mobile-menu #menu a {
   color: #ec5242;
 }
-
 #mobile-menu #menu .menu-sections {
   padding-bottom: 20px;
   font-size: 1.5rem;
@@ -152,6 +136,12 @@ a {
 .img-activities {
   width: 100px;
   height: 100px;
+  align-self: flex-end;
+}
+
+.bar-activities {
+  width: 8%;
+  border-color: #d3d3d3;
 }
 
 #hamburger-container {
@@ -160,21 +150,31 @@ a {
   left: 20px;
   width: 35px;
 }
-
 #hamburger-container .hamburguer {
-  background-color: rgb(88, 88, 88);
+  background-color: rgb(39, 42, 49);
   height: 6px;
   margin-bottom: 5px;
 }
 
+.hr-bar {
+  width: 15%;
+  border-color: #ec5242;
+}
+
+.title-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-div h2 {
+  padding-bottom: 10px;
+}
+
 #main-activities .activities p {
-  font-size: 0.7rem;
+  font-size: 12px;
 }
 
 #program h2 {
-  text-align: center;
-  border-bottom: 1px solid #ec5242;
-  padding-bottom: 20px;
   color: white;
 }
 
@@ -189,35 +189,29 @@ a {
 }
 
 #title {
-  background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0.8)),
-    url('./Images/background.jpg');
+  background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0.8)), url("./Images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 20px;
   padding-top: 100px;
   padding-bottom: 20px;
 }
-
 #title div:first-child {
   opacity: 1;
   padding-bottom: 10px;
 }
-
 #title div:first-child h2,
 #title div:first-child h1 {
   color: #ec5242;
   font-family: Cocogoose, sans-serif;
 }
-
 #title div:last-child {
   padding-bottom: 40px;
 }
-
 #title div:last-child p:first-child {
   border: 1px solid white;
   padding: 10px 20px;
 }
-
 #title div:last-child h1 {
   font-family: Cocogoose, sans-serif, serif;
   padding-top: 10px;
@@ -225,36 +219,33 @@ a {
 
 #program {
   background-color: #272a31;
-  background-image: url('./Images/pattern_bg.png');
+  background-image: url("./Images/pattern_bg.png");
   background-repeat: repeat;
   padding: 30px 20px;
 }
-
 #program .programs {
-  font-size: 0.7rem;
+  font-size: 12px;
 }
-
 #program .programs .title {
+  font-family: Lato Bold;
   color: #ec5242;
-  width: 173px;
+  width: 255px;
+  font-size: 13px;
 }
-
 #program #programs-container {
   padding-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-
 #program #programs-container .programs {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  background-color: rgba(211, 211, 211, 0.1);
+  background-color: rgba(211, 211, 211, 0.2);
   padding: 20px 20px;
 }
-
 #program button {
   margin-top: 20px;
   background-color: #ec5242;
@@ -267,32 +258,27 @@ a {
 #main-activities {
   padding: 20px 15px;
 }
-
 #main-activities #activities-container {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
-
 #main-activities .activities {
   display: flex;
   gap: 10px;
   align-items: flex-start;
 }
-
 #main-activities .activities .h2-activities {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
-
 #main-activities .activities .p1-activities {
   font-family: Lato Italic, sans-serif, serif;
   color: #ec5242;
-  padding-bottom: 2px;
+  padding-bottom: 10px;
 }
-
 #main-activities .activities .p2-activities {
-  padding-top: 2px;
+  padding-top: 10px;
 }
 
 #title-about {
@@ -307,7 +293,6 @@ a {
   color: #ec5242;
   font-family: Cocogoose, sans-serif;
 }
-
 #title-first h1 {
   padding-bottom: 20px;
 }
@@ -333,17 +318,14 @@ a {
 #title-second p {
   font-size: 0.8rem;
 }
-
 #title-second p:first-child {
   background-color: white;
   border: 1px solid #d3d3d3;
   padding: 20px 10px;
 }
-
 #title-second p:nth-child(2) {
   padding-top: 20px;
 }
-
 #title-second p:last-child {
   padding-top: 10px;
   font-family: Lato Bold, sans-serif, serif;
@@ -377,11 +359,9 @@ a {
 #logo-subContainer h3 {
   font-family: Norse Bold, sans-serif, serif;
 }
-
 #logo-subContainer h3 {
   font-size: 0.9rem;
 }
-
 #logo-subContainer #logo-place {
   padding-left: 5px;
   border-left: 1px solid #d3d3d3;
@@ -392,7 +372,6 @@ a {
   text-align: center;
   padding: 20px 20px;
 }
-
 #last-festivals h1 {
   padding-bottom: 10px;
 }
@@ -402,27 +381,23 @@ a {
   flex-direction: column;
   gap: 20px;
 }
-
 #previous-festivals h1 {
   font-size: 30px;
 }
-
 #previous-festivals h3 {
   font-family: Lato Light, sans-serif;
   font-size: 1rem;
 }
 
 #kyoto-festival {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)),
-    url('./Images/kyoto.jpg');
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./Images/kyoto.jpg");
   background-size: cover;
   color: white;
   padding: 20% 20%;
 }
 
 #osaka-festival {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)),
-    url('./Images/osaka.jpg');
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./Images/osaka.jpg");
   background-size: cover;
   color: white;
   padding: 20% 20%;
@@ -433,7 +408,6 @@ a {
   text-align: center;
   padding: 20px 20px;
 }
-
 #partners > h1 {
   color: white;
   padding-bottom: 10px;
@@ -447,11 +421,9 @@ a {
   flex-wrap: wrap;
   gap: 20px;
 }
-
 #partners-container .partners {
   color: gray;
 }
-
 #partners-container #airbnb {
   width: 100px;
 }
@@ -468,7 +440,6 @@ footer {
   display: flex;
   align-items: center;
 }
-
 #logo-footer h1 {
   font-family: Norse Bold, sans-serif, serif;
 }
@@ -482,33 +453,26 @@ footer {
     width: 150px;
     height: 150px;
   }
-
   #program .programs {
     font-size: 0.9rem;
   }
-
   #program .programs .title {
     width: 205px;
   }
-
   #main-activities .activities p {
     font-size: 0.8rem;
   }
-
   #main-activities .activities .p1-activities {
     padding-bottom: 10px;
   }
 }
-
 @media only screen and (min-width: 768px) {
   #hamburger-container {
     display: none;
   }
-
   #hiden-header {
     display: block;
   }
-
   #social-media {
     background-color: #272a31;
     color: white;
@@ -516,7 +480,6 @@ footer {
     padding: 10px 0;
     padding-right: 10%;
   }
-
   #social-list,
   #nav-bar,
   #nav-list {
@@ -525,50 +488,40 @@ footer {
     align-items: center;
     gap: 20px;
   }
-
   #nav-bar {
     justify-content: space-around;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-
   #nav-bar #logo-container {
     padding: 0;
     border: none;
   }
-
   #nav-bar #logo-container img {
     width: 50px;
   }
-
   #nav-list .nav-sections:first-child a {
     color: #ec5242;
   }
-
   #nav-list .nav-sections:last-child {
     border: 3px solid #ec5242;
     padding: 10px 10px;
     color: #ec5242;
   }
-
   #title {
     padding-left: 20%;
   }
-
   #title div:first-child {
     font-size: 2rem;
     width: 60%;
   }
-
   #title div:last-child {
     width: 50%;
   }
-
   #program {
     padding-top: 5%;
     padding-bottom: 5%;
   }
-
   #hiden-program {
     display: block;
     text-decoration: underline;
@@ -577,111 +530,88 @@ footer {
     padding-top: 50px;
     text-align: center;
   }
-
   #program #programs-container {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
-
   #program #programs-container p {
     font-size: 1rem;
   }
-
   #program #programs-container .title {
     font-size: 1.5rem;
   }
-
   #program #programs-container button {
     display: none;
   }
-
   #program #programs-container .programs {
     flex-direction: column;
     justify-content: flex-start;
     max-width: 180px;
     text-align: center;
   }
-
   #main-activities #activities-container {
     flex-direction: row;
     flex-wrap: wrap;
   }
-
   #main-activities #activities-container .activities {
     width: 47%;
   }
-
   .hide {
     display: flex;
   }
-
   #partners.hide {
     display: block;
   }
-
   #title-about {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 10%;
   }
-
   #title-first {
     width: 70%;
     font-size: 2rem;
   }
-
   #title-second {
     width: 70%;
   }
-
   #title-second p {
     font-size: 1rem;
   }
-
   #logo-section {
     padding: 0 20%;
     padding-top: 2%;
     padding-bottom: 5%;
   }
-
   #logo-section #logo-explain p {
     font-size: 1rem;
   }
-
   #logo-section #logo-container {
     padding-left: 0;
     padding-right: 0;
   }
-
   #logo-section #logo-container img {
     width: 80px;
   }
-
   #logo-section #logo-container #logo-subContainer h1 {
     font-size: 3rem;
   }
-
   #logo-section #logo-container #logo-subContainer h3 {
     font-size: 1.4rem;
   }
-
   #logo-section #logo-container #logo-subContainer p {
     font-size: 0.7rem;
   }
-
   #last-festivals {
     padding-top: 5%;
   }
-
   #previous-festivals {
     flex-direction: row;
     padding-left: 20%;
     padding-right: 10%;
     padding-bottom: 5%;
   }
-
   #previous-festivals #kyoto-festival,
   #previous-festivals #osaka-festival {
     padding: 0;
@@ -689,22 +619,18 @@ footer {
     height: 150px;
     padding-top: 10%;
   }
-
   #partners.hide-about {
     display: none;
   }
-
   footer.style-about {
     background-color: #272a31;
     color: white;
   }
 }
-
 @media only screen and (min-width: 1024px) {
   #main-activities {
     padding: 5% 10%;
   }
-
   #logo-section #logo-container {
     margin-left: 25%;
     margin-right: 25%;

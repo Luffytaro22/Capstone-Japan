@@ -17,6 +17,10 @@ a {
   color: #272a31;
 }
 
+.text-hide {
+  display: none;
+}
+
 #hiden-header,
 #hiden-program,
 #mobile-menu,
@@ -114,6 +118,12 @@ a {
 .img-activities {
   width: 100px;
   height: 100px;
+  align-self: flex-end;
+}
+
+.bar-activities {
+  width: 8%;
+  border-color: #d3d3d3;
 }
 
 #hamburger-container {
@@ -123,20 +133,32 @@ a {
   width: 35px;
 
   .hamburguer {
-    background-color: rgb(88, 88, 88);
+    background-color: rgb(39, 42, 49);
     height: 6px;
     margin-bottom: 5px;
   }
 }
 
+.hr-bar {
+  width: 15%;
+  border-color: #ec5242;
+}
+
+.title-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    padding-bottom: 10px;
+  }
+}
+
 #main-activities .activities p {
-  font-size: 0.7rem;
+  font-size: 12px;
 }
 
 #program h2 {
-  text-align: center;
-  border-bottom: 1px solid #ec5242;
-  padding-bottom: 20px;
   color: white;
 }
 
@@ -192,12 +214,14 @@ a {
   padding: 30px 20px;
 
   .programs {
-    font-size: 0.7rem;
+    font-size: 12px;
   }
 
   .programs .title {
+    font-family: Lato Bold;
     color: #ec5242;
-    width: 173px;
+    width: 255px;
+    font-size: 13px;
   }
 
   #programs-container {
@@ -211,7 +235,7 @@ a {
       align-items: center;
       justify-content: center;
       gap: 10px;
-      background-color: rgba(211, 211, 211, 0.1);
+      background-color: rgba(211, 211, 211, 0.2);
       padding: 20px 20px;
     }
   }
@@ -242,17 +266,17 @@ a {
     align-items: flex-start;
 
     .h2-activities {
-      padding-bottom: 10px;
+      padding-bottom: 5px;
     }
 
     .p1-activities {
       font-family: Lato Italic, sans-serif, serif;
       color: #ec5242;
-      padding-bottom: 2px;
+      padding-bottom: 10px;
     }
 
     .p2-activities {
-      padding-top: 2px;
+      padding-top: 10px;
     }
   }
 }
