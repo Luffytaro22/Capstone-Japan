@@ -49,6 +49,10 @@
     display: block;
   }
 
+  #title-second p {
+    font-size: 1rem;
+  }
+
   #title-second p:first-child {
     padding-left: 50px;
     padding-right: 50px;
@@ -200,10 +204,6 @@
     width: 70%;
   }
 
-  #title-second p {
-    font-size: 1rem;
-  }
-
   #logo-section {
     padding: 0 20%;
     padding-top: 2%;
@@ -281,12 +281,12 @@
   }
 
   #nav-list {
-    .nav-sections:not(.nav-sections:first-child, .nav-sections:last-child) {
-      padding-left: 5%;
-    }
-
     .nav-sections:nth-child(5) {
       padding-right: 5%;
+    }
+
+    .nav-sections:not(.nav-sections:first-child, .nav-sections:last-child) {
+      padding-left: 5%;
     }
   }
 }

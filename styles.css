@@ -193,12 +193,52 @@ a {
   padding-bottom: 10px;
 }
 
+#logo-explain p {
+  padding-top: 10px;
+  font-size: 0.8rem;
+  padding-bottom: 20px;
+}
+
+#logo-subContainer p {
+  font-size: 0.6rem;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+#last-festivals p {
+  padding-top: 10px;
+  font-size: 0.8rem;
+  padding-bottom: 30px;
+}
+
 #main-activities .activities p {
   font-size: 12px;
 }
 
 #program h2 {
   color: white;
+}
+
+#title-second p {
+  font-size: 1rem;
+}
+
+#title-second p:first-child {
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  padding: 20px 10px;
+  margin-top: 30px;
+}
+
+#title-second p:nth-child(2) {
+  padding-top: 20px;
+}
+
+#title-second p:last-child {
+  padding-top: 10px;
+  font-family: Lato Bold, sans-serif, serif;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
 }
 
 #program .programs p:last-child {
@@ -212,8 +252,7 @@ a {
 }
 
 #title {
-  background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0.8)),
-    url('./Images/background.jpg');
+  background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0.8)), url('./Images/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 20px;
@@ -224,6 +263,30 @@ a {
 #title div:first-child {
   opacity: 1;
   padding-bottom: 10px;
+}
+
+#logo-explain h1 {
+  padding-bottom: 10px;
+}
+
+#logo-subContainer h1,
+#logo-subContainer h3 {
+  font-family: Norse Bold, sans-serif, serif;
+  text-align: left;
+  font-size: 1.8rem;
+}
+
+#last-festivals h1 {
+  padding-bottom: 10px;
+}
+
+#partners .title-div > h1 {
+  color: white;
+  padding-bottom: 10px;
+}
+
+#logo-footer h1 {
+  font-family: Norse Bold, sans-serif, serif;
 }
 
 #title div:first-child h2,
@@ -258,7 +321,7 @@ a {
 }
 
 #program .programs .title {
-  font-family: Lato Bold;
+  font-family: Lato Bold, sans-serif, serif;
   color: #ec5242;
   width: 255px;
   font-size: 13px;
@@ -338,46 +401,6 @@ a {
   font-family: Cocogoose, sans-serif;
 }
 
-#logo-explain p {
-  padding-top: 10px;
-  font-size: 0.8rem;
-  padding-bottom: 20px;
-}
-
-#logo-subContainer p {
-  font-size: 0.6rem;
-  border-top: 1px solid #d3d3d3;
-  border-bottom: 1px solid #d3d3d3;
-}
-
-#last-festivals p {
-  padding-top: 10px;
-  font-size: 0.8rem;
-  padding-bottom: 30px;
-}
-
-#title-second p {
-  font-size: 0.8rem;
-}
-
-#title-second p:first-child {
-  background-color: white;
-  border: 1px solid #d3d3d3;
-  padding: 20px 10px;
-  margin-top: 30px;
-}
-
-#title-second p:nth-child(2) {
-  padding-top: 20px;
-}
-
-#title-second p:last-child {
-  padding-top: 10px;
-  font-family: Lato Bold, sans-serif, serif;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-}
-
 .logo {
   width: 60px;
 }
@@ -388,22 +411,11 @@ a {
   border-bottom: 1px solid #d3d3d3;
 }
 
-#logo-explain h1 {
-  padding-bottom: 10px;
-}
-
 #logo-container {
   border: 1px solid #d3d3d3;
   display: flex;
   padding: 30px 30px;
   justify-content: center;
-}
-
-#logo-subContainer h1,
-#logo-subContainer h3 {
-  font-family: Norse Bold, sans-serif, serif;
-  text-align: left;
-  font-size: 1.8rem;
 }
 
 #logo-subContainer h3 {
@@ -419,10 +431,6 @@ a {
 #last-festivals {
   text-align: center;
   padding: 20px 20px;
-}
-
-#last-festivals h1 {
-  padding-bottom: 10px;
 }
 
 #previous-festivals {
@@ -441,16 +449,14 @@ a {
 }
 
 #kyoto-festival {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)),
-    url('./Images/kyoto.jpg');
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url('./Images/kyoto.jpg');
   background-size: cover;
   color: white;
   padding: 20% 20%;
 }
 
 #osaka-festival {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)),
-    url('./Images/osaka.jpg');
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url('./Images/osaka.jpg');
   background-size: cover;
   color: white;
   padding: 20% 20%;
@@ -460,11 +466,6 @@ a {
   background-color: #272a31;
   text-align: center;
   padding: 20px 20px;
-}
-
-#partners .title-div > h1 {
-  color: white;
-  padding-bottom: 10px;
 }
 
 #partners-container {
@@ -495,10 +496,6 @@ footer {
 #logo-footer {
   display: flex;
   align-items: center;
-}
-
-#logo-footer h1 {
-  font-family: Norse Bold, sans-serif, serif;
 }
 
 #footer-info {
@@ -697,10 +694,6 @@ footer {
 
   #title-second {
     width: 70%;
-  }
-
-  #title-second p {
-    font-size: 1rem;
   }
 
   #logo-section {

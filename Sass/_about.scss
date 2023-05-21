@@ -125,19 +125,26 @@
 }
 
 #kyoto-festival {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)),
-    url('./Images/kyoto.jpg');
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url('./Images/kyoto.jpg');
   background-size: cover;
   color: white;
   padding: 20% 20%;
 }
 
 #osaka-festival {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)),
-    url('./Images/osaka.jpg');
+  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url('./Images/osaka.jpg');
   background-size: cover;
   color: white;
   padding: 20% 20%;
+}
+
+#logo-footer {
+  display: flex;
+  align-items: center;
+
+  h1 {
+    font-family: Norse Bold, sans-serif, serif;
+  }
 }
 
 #partners {
@@ -174,15 +181,6 @@ footer {
   align-items: center;
   gap: 30px;
   padding: 20px 20px;
-}
-
-#logo-footer {
-  display: flex;
-  align-items: center;
-
-  h1 {
-    font-family: Norse Bold, sans-serif, serif;
-  }
 }
 
 #footer-info {

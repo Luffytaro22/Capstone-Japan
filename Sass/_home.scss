@@ -174,8 +174,7 @@ a {
 }
 
 #title {
-  background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0.8)),
-    url('./Images/background.jpg');
+  background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0.8)), url('./Images/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 20px;
@@ -219,7 +218,7 @@ a {
   }
 
   .programs .title {
-    font-family: Lato Bold;
+    font-family: Lato Bold, sans-serif, serif;
     color: #ec5242;
     width: 255px;
     font-size: 13px;
