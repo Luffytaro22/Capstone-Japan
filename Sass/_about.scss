@@ -1,185 +1,187 @@
 #title-about {
-  background-color: rgba(211, 211, 211, 0.3);
-  padding: 0 20px;
-  padding-top: 80px;
-  padding-bottom: 40px;
-  text-align: center;
+	background-color: rgba(211, 211, 211, 0.3);
+	padding: 0 20px;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	text-align: center;
 }
 
 #title-first {
-  color: #ec5242;
-  font-family: Cocogoose, sans-serif;
+	color: #ec5242;
+	font-family: Cocogoose, sans-serif;
 
-  h1 {
-    padding-bottom: 20px;
-  }
+	h1 {
+		padding-bottom: 20px;
+	}
 }
 
 #logo-explain p {
-  padding-top: 10px;
-  font-size: 0.8rem;
-  padding-bottom: 20px;
+	padding-top: 10px;
+	font-size: 0.8rem;
+	padding-bottom: 20px;
 }
 
 #logo-subContainer p {
-  font-size: 0.5rem;
-  border-top: 1px solid #d3d3d3;
-  border-bottom: 1px solid #d3d3d3;
+	font-size: 0.5rem;
+	border-top: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
 }
 
 #last-festivals p {
-  padding-top: 10px;
-  font-size: 0.8rem;
-  padding-bottom: 30px;
+	padding-top: 10px;
+	font-size: 0.8rem;
+	padding-bottom: 30px;
 }
 
 #title-second {
-  p {
-    font-size: 0.8rem;
-  }
+	p {
+		font-size: 0.8rem;
+	}
 
-  p:first-child {
-    background-color: white;
-    border: 1px solid #d3d3d3;
-    padding: 20px 10px;
-  }
+	p:first-child {
+		background-color: white;
+		border: 1px solid #d3d3d3;
+		padding: 20px 10px;
+	}
 
-  p:nth-child(2) {
-    padding-top: 20px;
-  }
+	p:nth-child(2) {
+		padding-top: 20px;
+	}
 
-  p:last-child {
-    padding-top: 10px;
-    font-family: Lato Bold, sans-serif, serif;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-  }
+	p:last-child {
+		padding-top: 10px;
+		font-family: Lato Bold, sans-serif, serif;
+		text-decoration: underline;
+		text-decoration-skip-ink: none;
+	}
 }
 
 .logo {
-  width: 50px;
+	width: 50px;
 }
 
 #logo-section {
-  padding: 20px 20px;
-  text-align: center;
-  border-bottom: 1px solid #d3d3d3;
+	padding: 20px 20px;
+	text-align: center;
+	border-bottom: 1px solid #d3d3d3;
 }
 
 #logo-explain {
-  h1 {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ec5242;
-  }
+	h1 {
+		padding-bottom: 10px;
+		border-bottom: 1px solid #ec5242;
+	}
 }
 
 #logo-container {
-  border: 1px solid #d3d3d3;
-  display: flex;
-  padding: 20px 30px;
-  justify-content: center;
+	border: 1px solid #d3d3d3;
+	display: flex;
+	padding: 20px 30px;
+	justify-content: center;
 }
 
 #logo-subContainer {
-  h1,
-  h3 {
-    font-family: Norse Bold, sans-serif, serif;
-  }
+	h1,
+	h3 {
+		font-family: Norse Bold, sans-serif, serif;
+	}
 
-  h3 {
-    font-size: 0.9rem;
-  }
+	h3 {
+		font-size: 0.9rem;
+	}
 
-  #logo-place {
-    padding-left: 5px;
-    border-left: 1px solid #d3d3d3;
-    margin-left: 5px;
-  }
+	#logo-place {
+		padding-left: 5px;
+		border-left: 1px solid #d3d3d3;
+		margin-left: 5px;
+	}
 }
 
 #last-festivals {
-  text-align: center;
-  padding: 20px 20px;
+	text-align: center;
+	padding: 20px 20px;
 
-  h1 {
-    padding-bottom: 10px;
-  }
+	h1 {
+		padding-bottom: 10px;
+	}
 }
 
 #previous-festivals {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 
-  h1 {
-    font-size: 30px;
-  }
+	h1 {
+		font-size: 30px;
+	}
 
-  h3 {
-    font-family: Lato Light, sans-serif;
-    font-size: 1rem;
-  }
+	h3 {
+		font-family: Lato Light, sans-serif;
+		font-size: 1rem;
+	}
 }
 
 #kyoto-festival {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./Images/kyoto.jpg");
-  background-size: cover;
-  color: white;
-  padding: 20% 20%;
+	background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)),
+		url('./Images/kyoto.jpg');
+	background-size: cover;
+	color: white;
+	padding: 20% 20%;
 }
 
 #osaka-festival {
-  background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url("./Images/osaka.jpg");
-  background-size: cover;
-  color: white;
-  padding: 20% 20%;
+	background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)),
+		url('./Images/osaka.jpg');
+	background-size: cover;
+	color: white;
+	padding: 20% 20%;
 }
 
 #partners {
-  background-color: #272a31;
-  text-align: center;
-  padding: 20px 20px;
+	background-color: #272a31;
+	text-align: center;
+	padding: 20px 20px;
 
-  > h1 {
-    color: white;
-    padding-bottom: 10px;
-  }
+	> h1 {
+		color: white;
+		padding-bottom: 10px;
+	}
 }
 
 #partners-container {
-  padding-top: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
 
-  .partners {
-    color: gray;
-  }
+	.partners {
+		color: gray;
+	}
 
-  #airbnb {
-    width: 100px;
-  }
+	#airbnb {
+		width: 100px;
+	}
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  padding: 20px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	padding: 20px 20px;
 }
 
 #logo-footer {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 
-  h1 {
-    font-family: Norse Bold, sans-serif, serif;
-  }
+	h1 {
+		font-family: Norse Bold, sans-serif, serif;
+	}
 }
 
 #footer-info {
-  font-size: 0.7rem;
+	font-size: 0.7rem;
 }
