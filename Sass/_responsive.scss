@@ -1,247 +1,247 @@
 @media only screen and (min-width: 375px) {
-	.img-activities {
-		width: 150px;
-		height: 150px;
-	}
+  .img-activities {
+    width: 150px;
+    height: 150px;
+  }
 
-	#program {
-		.programs {
-			font-size: 0.9rem;
+  #program {
+    .programs {
+      font-size: 0.9rem;
 
-			.title {
-				width: 205px;
-			}
-		}
-	}
+      .title {
+        width: 205px;
+      }
+    }
+  }
 
-	#main-activities {
-		.activities {
-			p {
-				font-size: 0.8rem;
-			}
+  #main-activities {
+    .activities {
+      p {
+        font-size: 0.8rem;
+      }
 
-			.p1-activities {
-				padding-bottom: 10px;
-			}
-		}
-	}
+      .p1-activities {
+        padding-bottom: 10px;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 768px) {
-	#hamburger-container {
-		display: none;
-	}
+  #hamburger-container {
+    display: none;
+  }
 
-	#hiden-header {
-		display: block;
-	}
+  #hiden-header {
+    display: block;
+  }
 
-	#social-media {
-		background-color: #272a31;
-		color: white;
-		font-size: 0.9rem;
-		padding: 10px 0;
-		padding-right: 10%;
-	}
+  #social-media {
+    background-color: #272a31;
+    color: white;
+    font-size: 0.9rem;
+    padding: 10px 0;
+    padding-right: 10%;
+  }
 
-	#social-list,
-	#nav-bar,
-	#nav-list {
-		display: flex;
-		justify-content: end;
-		align-items: center;
-		gap: 20px;
-	}
+  #social-list,
+  #nav-bar,
+  #nav-list {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+  }
 
-	#nav-bar {
-		justify-content: space-around;
-		padding-top: 10px;
-		padding-bottom: 10px;
+  #nav-bar {
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
-		#logo-container {
-			padding: 0;
-			border: none;
+    #logo-container {
+      padding: 0;
+      border: none;
 
-			img {
-				width: 50px;
-			}
-		}
-	}
+      img {
+        width: 50px;
+      }
+    }
+  }
 
-	#nav-list {
-		.nav-sections:first-child a {
-			color: #ec5242;
-		}
+  #nav-list {
+    .nav-sections:first-child a {
+      color: #ec5242;
+    }
 
-		.nav-sections:last-child {
-			border: 3px solid #ec5242;
-			padding: 10px 10px;
-			color: #ec5242;
-		}
-	}
+    .nav-sections:last-child {
+      border: 3px solid #ec5242;
+      padding: 10px 10px;
+      color: #ec5242;
+    }
+  }
 
-	#title {
-		padding-left: 20%;
+  #title {
+    padding-left: 20%;
 
-		div:first-child {
-			font-size: 2rem;
-			width: 60%;
-		}
+    div:first-child {
+      font-size: 2rem;
+      width: 60%;
+    }
 
-		div:last-child {
-			width: 50%;
-		}
-	}
+    div:last-child {
+      width: 50%;
+    }
+  }
 
-	#program {
-		padding-top: 5%;
-		padding-bottom: 5%;
-	}
+  #program {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
 
-	#hiden-program {
-		display: block;
-		text-decoration: underline;
-		text-decoration-skip-ink: none;
-		color: white;
-		padding-top: 50px;
-		text-align: center;
-	}
+  #hiden-program {
+    display: block;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+  }
 
-	#program #programs-container {
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
+  #program #programs-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
-		p {
-			font-size: 1rem;
-		}
+    p {
+      font-size: 1rem;
+    }
 
-		.title {
-			font-size: 1.5rem;
-		}
+    .title {
+      font-size: 1.5rem;
+    }
 
-		button {
-			display: none;
-		}
+    button {
+      display: none;
+    }
 
-		.programs {
-			flex-direction: column;
-			justify-content: flex-start;
-			max-width: 180px;
-			text-align: center;
-		}
-	}
+    .programs {
+      flex-direction: column;
+      justify-content: flex-start;
+      max-width: 180px;
+      text-align: center;
+    }
+  }
 
-	#main-activities #activities-container {
-		flex-direction: row;
-		flex-wrap: wrap;
+  #main-activities #activities-container {
+    flex-direction: row;
+    flex-wrap: wrap;
 
-		.activities {
-			width: 47%;
-		}
-	}
+    .activities {
+      width: 47%;
+    }
+  }
 
-	.hide {
-		display: flex;
-	}
+  .hide {
+    display: flex;
+  }
 
-	#partners.hide {
-		display: block;
-	}
+  #partners.hide {
+    display: block;
+  }
 
-	#title-about {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding-bottom: 10%;
-	}
+  #title-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+  }
 
-	#title-first {
-		width: 70%;
-		font-size: 2rem;
-	}
+  #title-first {
+    width: 70%;
+    font-size: 2rem;
+  }
 
-	#title-second {
-		width: 70%;
-	}
+  #title-second {
+    width: 70%;
+  }
 
-	#title-second p {
-		font-size: 1rem;
-	}
+  #title-second p {
+    font-size: 1rem;
+  }
 
-	#logo-section {
-		padding: 0 20%;
-		padding-top: 2%;
-		padding-bottom: 5%;
+  #logo-section {
+    padding: 0 20%;
+    padding-top: 2%;
+    padding-bottom: 5%;
 
-		#logo-explain {
-			p {
-				font-size: 1rem;
-			}
-		}
+    #logo-explain {
+      p {
+        font-size: 1rem;
+      }
+    }
 
-		#logo-container {
-			padding-left: 0;
-			padding-right: 0;
+    #logo-container {
+      padding-left: 0;
+      padding-right: 0;
 
-			img {
-				width: 80px;
-			}
+      img {
+        width: 80px;
+      }
 
-			#logo-subContainer {
-				h1 {
-					font-size: 3rem;
-				}
+      #logo-subContainer {
+        h1 {
+          font-size: 3rem;
+        }
 
-				h3 {
-					font-size: 1.4rem;
-				}
+        h3 {
+          font-size: 1.4rem;
+        }
 
-				p {
-					font-size: 0.7rem;
-				}
-			}
-		}
-	}
+        p {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
 
-	#last-festivals {
-		padding-top: 5%;
-	}
+  #last-festivals {
+    padding-top: 5%;
+  }
 
-	#previous-festivals {
-		flex-direction: row;
-		padding-left: 20%;
-		padding-right: 10%;
-		padding-bottom: 5%;
+  #previous-festivals {
+    flex-direction: row;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-bottom: 5%;
 
-		#kyoto-festival,
-		#osaka-festival {
-			padding: 0;
-			width: 100%;
-			height: 150px;
-			padding-top: 10%;
-		}
-	}
+    #kyoto-festival,
+    #osaka-festival {
+      padding: 0;
+      width: 100%;
+      height: 150px;
+      padding-top: 10%;
+    }
+  }
 
-	#partners.hide-about {
-		display: none;
-	}
+  #partners.hide-about {
+    display: none;
+  }
 
-	footer.style-about {
-		background-color: #272a31;
-		color: white;
-	}
+  footer.style-about {
+    background-color: #272a31;
+    color: white;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
-	#main-activities {
-		padding: 5% 10%;
-	}
+  #main-activities {
+    padding: 5% 10%;
+  }
 
-	#logo-section {
-		#logo-container {
-			margin-left: 25%;
-			margin-right: 25%;
-		}
-	}
+  #logo-section {
+    #logo-container {
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+  }
 }
