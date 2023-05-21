@@ -211,16 +211,16 @@ a {
   padding-bottom: 30px;
 }
 
+#title-second p {
+  font-size: 1rem;
+}
+
 #main-activities .activities p {
   font-size: 12px;
 }
 
 #program h2 {
   color: white;
-}
-
-#title-second p {
-  font-size: 1rem;
 }
 
 #title-second p:first-child {
@@ -280,13 +280,17 @@ a {
   padding-bottom: 10px;
 }
 
+#logo-footer h1 {
+  font-family: Norse Bold, sans-serif, serif;
+}
+
+#previous-festivals h1 {
+  font-size: 30px;
+}
+
 #partners .title-div > h1 {
   color: white;
   padding-bottom: 10px;
-}
-
-#logo-footer h1 {
-  font-family: Norse Bold, sans-serif, serif;
 }
 
 #title div:first-child h2,
@@ -437,10 +441,6 @@ a {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-#previous-festivals h1 {
-  font-size: 30px;
 }
 
 #previous-festivals h3 {
@@ -766,12 +766,12 @@ footer {
     margin-right: 25%;
   }
 
-  #nav-list .nav-sections:not(.nav-sections:first-child, .nav-sections:last-child) {
-    padding-left: 5%;
-  }
-
   #nav-list .nav-sections:nth-child(5) {
     padding-right: 5%;
+  }
+
+  #nav-list .nav-sections:not(.nav-sections:first-child, .nav-sections:last-child) {
+    padding-left: 5%;
   }
 }
 
