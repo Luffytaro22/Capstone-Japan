@@ -19,8 +19,57 @@ a {
 
 #hiden-header,
 #hiden-program,
+#mobile-menu,
 .hide {
   display: none;
+}
+
+#mobile-menu {
+  position: fixed;
+  z-index: 999;
+  background-color: #272a31;
+  color: white;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 20px;
+  gap: 50px;
+
+  #x-container {
+    top: 15px;
+    left: 20px;
+    width: 35px;
+
+    .x {
+      height: 3px;
+      margin-bottom: 9.5px;
+      background-color: white;
+    }
+
+    .x:nth-child(2) {
+      background-color: #272a31;
+    }
+
+    .x:first-child {
+      transform: rotate(45deg);
+      transform-origin: left;
+    }
+
+    .x:last-child {
+      transform: rotate(-45deg);
+      transform-origin: left;
+    }
+  }
+
+  #menu a {
+    color: #ec5242;
+  }
+
+  #menu .menu-sections {
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+  }
 }
 
 .img-activities {
