@@ -244,7 +244,7 @@ a {
 #main-activities .activities {
   display: flex;
   gap: 10px;
-  align-items: center;
+  align-items: flex-start;
 }
 #main-activities .activities .h2-activities {
   padding-bottom: 10px;
