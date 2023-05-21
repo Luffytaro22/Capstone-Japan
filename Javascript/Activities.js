@@ -7,6 +7,7 @@ const activities = [
     description:
       'The gastronomy of Japan as a national cuisine has evolved, <span class="text-hide"> through the centuries, due to many political, social and resource changes, starting from the Ancient Age, in which </span> most of the cuisine was influenced by Chinese culture.',
     img: 'Images/japanese-food.jpg',
+    alt: 'cuisine',
   },
   {
     activity: 'Writing',
@@ -14,6 +15,7 @@ const activities = [
     description:
       'The Japanese script derives from the Chinese script, which was brought to Japan via Korea in the fourth century.',
     img: 'Images/japanese-letter.jpg',
+    alt: 'writing',
   },
   {
     activity: 'Outfit',
@@ -21,6 +23,7 @@ const activities = [
     description:
       '<span class="text-hide">Daily clothing in Japan is like typical Western clothing, pants and shirts are not new.</span> Some outstanding clothing of traditional clothing can be said to be common in daily life.',
     img: 'Images/japanese-clothes.jpg',
+    alt: 'outfit',
   },
   {
     activity: 'Tea Ceremony',
@@ -28,6 +31,7 @@ const activities = [
     description:
       'The Japanese tea ceremony is a ritual way of preparing green or matcha tea. <span class="text-hide">Influenced by Zen Buddhism, served to a small group of guests in a tranquil setting.</span>',
     img: 'Images/japanese-tea.jpg',
+    alt: 'tea',
   },
   {
     activity: 'Architecture',
@@ -35,6 +39,7 @@ const activities = [
     description:
       '<span class="text-hide">Mostly, the buildings that have survived to this day and that show characteristics of traditional</span> Japanese architecture are castles, Buddhist temples, and Shinto shrines.',
     img: 'Images/japanese-buildings.jpg',
+    alt: 'architecture',
   },
   {
     activity: 'Hanami',
@@ -42,6 +47,7 @@ const activities = [
     description:
       'Hanami is the Japanese tradition of observing the beauty of flowers<span class="text-hide">, but this word is generally associated with the period when the cherry blossoms are in bloom and when the Japanese flock to parks and gardens to gaze at their blossoms (sakura).</span>',
     img: 'Images/japanese-hanami.jpg',
+    alt: 'hanami',
   },
 ];
 
@@ -68,6 +74,7 @@ activities.forEach((activity) => {
   /* Adding the content */
   h2.textContent = activity.activity;
   img.src = activity.img;
+  img.alt = activity.alt;
   p1.textContent = activity.type;
   p2.innerHTML = activity.description;
 
