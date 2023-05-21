@@ -251,4 +251,14 @@
       margin-right: 25%;
     }
   }
+
+  #nav-list {
+    .nav-sections:not(.nav-sections:first-child, .nav-sections:last-child) {
+      padding-left: 5%;
+    }
+
+    .nav-sections:nth-child(5) {
+      padding-right: 5%;
+    }
+  }
 }
