@@ -66,6 +66,9 @@ a {
   padding-top: 15px;
   padding-left: 20px;
   gap: 50px;
+  animation-name: menu;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
 }
 #mobile-menu #x-container {
   top: 15px;
@@ -81,12 +84,42 @@ a {
   background-color: #272a31;
 }
 #mobile-menu #x-container .x:first-child {
+  animation-name: first;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
   transform: rotate(45deg);
   transform-origin: left;
 }
 #mobile-menu #x-container .x:last-child {
+  animation-name: second;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
   transform: rotate(-45deg);
   transform-origin: left;
+}
+@keyframes first {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(45deg);
+  }
+}
+@keyframes second {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-45deg);
+  }
+}
+@keyframes menu {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 #mobile-menu #menu a {
   color: #ec5242;
