@@ -457,7 +457,8 @@ footer {
     font-size: 0.9rem;
   }
   #program .programs .title {
-    width: 205px;
+    width: 185px;
+    font-size: 1rem;
   }
   #main-activities .activities p {
     font-size: 0.8rem;
