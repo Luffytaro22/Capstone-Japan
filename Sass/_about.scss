@@ -22,7 +22,7 @@
 }
 
 #logo-subContainer p {
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   border-top: 1px solid #d3d3d3;
   border-bottom: 1px solid #d3d3d3;
 }
@@ -57,7 +57,7 @@
 }
 
 .logo {
-  width: 50px;
+  width: 60px;
 }
 
 #logo-section {
@@ -69,14 +69,13 @@
 #logo-explain {
   h1 {
     padding-bottom: 10px;
-    border-bottom: 1px solid #ec5242;
   }
 }
 
 #logo-container {
   border: 1px solid #d3d3d3;
   display: flex;
-  padding: 20px 30px;
+  padding: 30px 30px;
   justify-content: center;
 }
 
@@ -84,10 +83,12 @@
   h1,
   h3 {
     font-family: Norse Bold, sans-serif, serif;
+    text-align: left;
+    font-size: 1.8rem;
   }
 
   h3 {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
   }
 
   #logo-place {
@@ -142,7 +143,7 @@
   text-align: center;
   padding: 20px 20px;
 
-  > h1 {
+  .title-div > h1 {
     color: white;
     padding-bottom: 10px;
   }
