@@ -68,7 +68,7 @@ Clone this repository to your desired folder:
 `git clone https://github.com/Luffytaro22/Capstone-Japan.git`
 
 ### Deployment
-You can deploy this project using: [This Link](https://luffytaro22.github.io/Portfolio-Mobile-First-Skeleton/)
+You can deploy this project using: [This Link]([https://luffytaro22.github.io/Portfolio-Mobile-First-Skeleton/](https://luffytaro22.github.io/Capstone-Japan/))
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -113,7 +113,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would give credits to the following:
+I would like to give credits to the following:
 * **Microverse** for this readme template.
 * <a href="https://www.behance.net/adagio07" target="_blank" rel="noopener">Cindy Shin in Behance</a> for this web layout.
 * <a href="https://www.freepik.es/foto-gratis/vista-lateral-roll-salsa-soja-palillos-mano_7727088.htm#query=cocina%20japonesa&position=0&from_view=search&track=ais" target="_blank" rel="noopener">8photo in Freepik</a> for the gastronomy image.
