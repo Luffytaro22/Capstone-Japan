@@ -40,7 +40,18 @@
   }
 
   #hiden-header {
+    box-shadow: 0 0 10px 5px #d3d3d3;
     display: block;
+  }
+
+  #hr-hide,
+  .text-hide2 {
+    display: block;
+  }
+
+  #title-second p:first-child {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   #social-media {

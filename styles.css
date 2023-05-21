@@ -281,6 +281,11 @@ a {
   padding-top: 10px;
 }
 
+#hr-hide,
+.text-hide2 {
+  display: none;
+}
+
 #title-about {
   background-color: rgba(211, 211, 211, 0.3);
   padding: 0 20px;
@@ -292,9 +297,6 @@ a {
 #title-first {
   color: #ec5242;
   font-family: Cocogoose, sans-serif;
-}
-#title-first h1 {
-  padding-bottom: 20px;
 }
 
 #logo-explain p {
@@ -322,6 +324,7 @@ a {
   background-color: white;
   border: 1px solid #d3d3d3;
   padding: 20px 10px;
+  margin-top: 30px;
 }
 #title-second p:nth-child(2) {
   padding-top: 20px;
@@ -478,7 +481,16 @@ footer {
     display: none;
   }
   #hiden-header {
+    box-shadow: 0 0 10px 5px #d3d3d3;
     display: block;
+  }
+  #hr-hide,
+  .text-hide2 {
+    display: block;
+  }
+  #title-second p:first-child {
+    padding-left: 50px;
+    padding-right: 50px;
   }
   #social-media {
     background-color: #272a31;
