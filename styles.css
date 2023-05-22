@@ -287,7 +287,7 @@ a {
   font-size: 30px;
 }
 
-#partners .title-div > h1 {
+#partners .title-div > h2 {
   color: white;
   padding-bottom: 10px;
 }
@@ -677,7 +677,7 @@ footer {
     display: block;
   }
 
-  #partners.hide h1 {
+  #partners.hide h2 {
     color: gray;
   }
 
