@@ -105,10 +105,10 @@ function showMore() {
   activity5.style.display = 'flex';
   activity6.style.display = 'flex';
 
-  iDown.style.display = 'none';
-  moreButton.appendChild(iUp);
   moreButton.textContent = 'LESS';
-
+  moreButton.appendChild(iUp);
+  
+  moreButton.removeEventListener('click', showMore);
   moreButton.addEventListener('click', hideMore);
 }
 
@@ -119,11 +119,10 @@ function hideMore() {
   activity5.style.display = 'none';
   activity6.style.display = 'none';
 
-  iUp.style.display = 'none';
-  iDown.style.display = 'block';
-  moreButton.appendChild(iDown);
   moreButton.textContent = 'MORE';
-
+  moreButton.appendChild(iDown);
+  
+  moreButton.removeEventListener('click', hideMore);
   moreButton.addEventListener('click', showMore);
 }
 
