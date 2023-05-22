@@ -369,6 +369,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  padding-bottom: 40px;
 }
 
 #main-activities .activities {
@@ -389,6 +390,20 @@ a {
 
 #main-activities .activities .p2-activities {
   padding-top: 10px;
+}
+
+#more-button button {
+  width: 100%;
+  background: none;
+  border: 2px solid #d3d3d3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  font-family: 'Lato Bold';
+}
+
+#more-button i {
+  color: #ec5242;
 }
 
 #hr-hide,
@@ -538,7 +553,8 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  #hamburger-container {
+  #hamburger-container,
+  #more-button {
     display: none;
   }
 
