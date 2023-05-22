@@ -399,7 +399,7 @@ a {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 5px;
-  font-family: 'Lato Bold';
+  font-family: 'Lato Bold', sans-serif, serif;
 }
 
 #more-button i {
