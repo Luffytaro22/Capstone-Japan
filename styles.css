@@ -397,7 +397,7 @@ a {
 }
 
 #title-about {
-  background-color: rgba(211, 211, 211, 0.3);
+  background: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 0.9)), url(./Images/background-about.jpg);
   padding: 0 20px;
   padding-top: 80px;
   padding-bottom: 40px;
