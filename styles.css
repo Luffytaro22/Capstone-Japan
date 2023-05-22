@@ -398,6 +398,7 @@ a {
 
 #title-about {
   background: linear-gradient(rgba(211, 211, 211, 0.9), rgba(211, 211, 211, 0.9)), url(./Images/background-about.jpg);
+  background-size: cover;
   padding: 0 20px;
   padding-top: 80px;
   padding-bottom: 40px;
@@ -467,7 +468,7 @@ a {
 }
 
 #partners {
-  background-color: #272a31;
+  background-color: #414246;
   text-align: center;
   padding: 20px 20px;
 }
