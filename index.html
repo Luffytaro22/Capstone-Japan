@@ -1,133 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"> <!-- Web icon -->
-    <link rel="icon" href="Images/torii (1).png">
-    <script src="https://kit.fontawesome.com/5211805414.js" crossorigin="anonymous"></script> <!-- Font Awesome -->
-    <script src="Javascript/Activities.js" defer></script> <!-- Activities section -->
-    <title>Japanese Culture Festival</title>
-</head>
-<body>
-    <header>
-        <div id="hamburger-container">
-            <div class="hamburguer"></div>
-            <div class="hamburguer"></div>
-            <div class="hamburguer"></div>
-        </div>
-        <div id="hiden-header">
-            <div id="social-media">
-                <ul id="social-list">
-                    <li class="social"><i class="fa-brands fa-facebook-f"></i></li>
-                    <li class="social"><i class="fa-brands fa-twitter"></i></li>
-                    <li class="social">English</li>
-                    <li class="social">My Page</li>
-                    <li class="social">Log Out</li>
-                </ul>
-            </div>
-            <nav id="nav-bar">
-                <a href="index.html">
-                    <div id="logo-container">
-                        <img src="Images/torii (1).png" alt="logo" class="logo">
-                        <div id="logo-subContainer">
-                          <h1>Japan</h1>
-                          <h3>Culture Festival 2023</h3>
-                        </div>
-                      </div>
-                </a>
-                  <ul id="nav-list">
-                    <li class="nav-sections"><a href="About.html">About</a></li>
-                    <li class="nav-sections">Program</li>
-                    <li class="nav-sections">Join</li>
-                    <li class="nav-sections">Sponsor</li>
-                    <li class="nav-sections">News</li>
-                    <li class="nav-sections">Campaign</li>
-                  </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section id="title">
-            <div>   
-                <h2>こんにちは世界</h2>
-                <h1>Japanese Culture Festival 2023</h1>
-            </div>
-            <div>
-                <p>A joyful celebration believing in the value of openess and sharing, creating a positive change with people from over 80 countries is taking place in Tokyo, Japan.</p>
-                <h1>2023.06.15(THU) ~ 16(FRI)</h1>
-                <p>@National Gobernment of Japan, Art Center Nabi and more</p>
-            </div>
-        </section>
-        <section id="program">
-            <h2>Main Program</h2>
-                <div id="programs-container">
-                    <div class="programs">
-                        <img src="Images/program_icon_01.png" alt="lecture">
-                        <p class="title">Lecture</p>
-                        <p>Listen to the presentes about the messages of sharing and opening.</p>
-                    </div>
-                    <div class="programs">
-                        <img src="Images/program_icon_02.png" alt="exhibition">
-                        <p class="title">CC Exhibition</p>
-                        <p>Appreciate various creations applying CC license of artists, organized from Art Center Nabi.</p>
-                    </div>
-                    <div class="programs">
-                        <img src="Images/program_icon_03.png" alt="forum">
-                        <p class="title">Forum</p>
-                        <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
-                    </div>
-                    <div class="programs">
-                        <img src="Images/program_icon_04.png" alt="eat">
-                        <p class="title">Eat</p>
-                        <p>Taste food you'd never try and delight yourself with the asian gastronomy.</p>
-                    </div>
-                    <div class="programs">
-                        <img src="Images/program_icon_05.png" alt="landscape">
-                        <p class="title">Landscape</p>
-                        <p>Appreciate the beautiful view of the capital with blooming cherry blossoms.</p>
-                    </div>
-                    <button type="button">Join Japanese Festival 2023</button>
-                </div>
-                <p id="hiden-program">SEE THE HOLE PROGRAM</p>
-        </section>
-        <section id="main-activities">
-            <h2>Main Activities</h2>
-            <div id="activities-container">
-
-            </div>
-        </section>
-        <section id="partners" class="hide">
-            <h1>Partner</h1>
-            <div id="partners-container">
-              <div class="partners">
-                <h1>mozilla</h1>
-              </div>
-              <div class="partners">
-                <h1>Google</h1>
-              </div>
-              <div class="partners">
-                <h1>NAVER</h1>
-              </div>
-              <div class="partners">
-                <h1>daumkakao</h1>
-              </div>
-              <div class="partners">
-                <img src="Images/pngwing.com.png" alt="airbnb" class="logo" id="airbnb">
-              </div>
-            </div>
-          </section>
-    </main>
-</body>
-<footer class="hide">
-    <div id="logo-footer">
-      <img src="Images/torii (1).png" alt="logo" class="logo">
-      <h1>Japan</h1>
-    </div>
-    <div id="footer-info">
-      <p>2023 National Gobernment of Japan.</p>
-      <p>Some Rights Reserved.</p>
-    </div>
-  </footer>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<!-- Web icon -->
+		<link rel="icon" href="Images/torii (1).png" />
+		<script src="https://kit.fontawesome.com/5211805414.js" crossorigin="anonymous"></script>
+		<!-- Font Awesome -->
+		<script src="Javascript/Activities.js" defer></script>
+		<!-- Activities section -->
+		<script src="Javascript/menu.js" defer></script>
+		<!-- Mobile Menu -->
+		<title>Japanese Culture Festival</title>
+	</head>
+	<body>
+		<header>
+			<div id="mobile-menu">
+				<div id="x-container">
+					<div class="x"></div>
+					<div class="x"></div>
+					<div class="x"></div>
+				</div>
+				<ul id="menu">
+					<li class="menu-sections"><a href="index.html">Home</a></li>
+					<li class="menu-sections"><a href="About.html">About</a></li>
+					<li class="menu-sections">Program</li>
+					<li class="menu-sections">Join</li>
+					<li class="menu-sections">Sponsor</li>
+					<li class="menu-sections">News</li>
+					<li class="menu-sections">Campaign</li>
+				</ul>
+			</div>
+			<div id="hamburger-container">
+				<div class="hamburguer"></div>
+				<div class="hamburguer"></div>
+				<div class="hamburguer"></div>
+			</div>
+			<div id="hiden-header">
+				<div id="social-media">
+					<ul id="social-list">
+						<li class="social"><i class="fa-brands fa-facebook-f"></i></li>
+						<li class="social"><i class="fa-brands fa-twitter"></i></li>
+						<li class="social">English</li>
+						<li class="social">My Page</li>
+						<li class="social">Log Out</li>
+					</ul>
+				</div>
+				<nav id="nav-bar">
+					<a href="index.html">
+						<div id="logo-container">
+							<img src="Images/torii (1).png" alt="logo" class="logo" />
+							<div id="logo-subContainer">
+								<h1>Japanese</h1>
+								<h3>Culture Festival 2023</h3>
+							</div>
+						</div>
+					</a>
+					<ul id="nav-list">
+						<li class="nav-sections"><a href="About.html">About</a></li>
+						<li class="nav-sections">Program</li>
+						<li class="nav-sections">Join</li>
+						<li class="nav-sections">Sponsor</li>
+						<li class="nav-sections">News</li>
+						<li class="nav-sections">Campaign</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section id="title">
+				<div>
+					<h1>こんにちは世界</h1>
+					<h2>Japanese Culture Festival 2023</h2>
+				</div>
+				<div>
+					<p
+						>A joyful celebration believing in the value of openess and sharing, creating a positive
+						change with people from over 80 countries is taking place in Tokyo, Japan.</p
+					>
+					<h1>2023.06.15(THU) ~ 16(FRI)</h1>
+					<p>@National Gobernment of Japan, Art Center Nabi and more</p>
+				</div>
+			</section>
+			<section id="program">
+				<div class="title-div">
+					<h2>Main Program</h2>
+					<hr class="hr-bar">
+				</div>
+				<div id="programs-container">
+					<div class="programs">
+						<img src="Images/program_icon_01.png" alt="lecture" />
+						<p class="title">Lecture</p>
+						<p>Listen to the presentes about the messages of sharing and opening.</p>
+					</div>
+					<div class="programs">
+						<img src="Images/program_icon_02.png" alt="exhibition" />
+						<p class="title">CC Exhibition</p>
+						<p
+							>Appreciate various creations applying CC license of artists, organized from Art
+							Center Nabi.</p
+						>
+					</div>
+					<div class="programs">
+						<img src="Images/program_icon_03.png" alt="forum" />
+						<p class="title">Forum</p>
+						<p>Have the time to share your thoughts and opinions with experts for each topic.</p>
+					</div>
+					<div class="programs">
+						<img src="Images/program_icon_04.png" alt="eat" />
+						<p class="title">Eat</p>
+						<p>Taste food you'd never try and delight yourself with the asian gastronomy.</p>
+					</div>
+					<div class="programs">
+						<img src="Images/program_icon_05.png" alt="landscape" />
+						<p class="title">Landscape</p>
+						<p>Appreciate the beautiful view of the capital with blooming cherry blossoms.</p>
+					</div>
+					<button type="button">Join Japanese Festival 2023</button>
+				</div>
+				<p id="hiden-program">SEE THE HOLE PROGRAM</p>
+			</section>
+			<section id="main-activities">
+				<div class="title-div">
+					<h2>Main Activities</h2>
+					<hr class="hr-bar">
+				</div>
+				<div id="activities-container"> </div>
+				<div id="more-button">
+					<button type="button">MORE <i class="fa-solid fa-chevron-down"></i></button>
+				</div>
+			</section>
+			<section id="partners" class="hide">
+				<div class="title-div">
+					<h2>Partner</h2>
+					<hr class="hr-bar">
+				</div>
+				<div id="partners-container">
+					<div class="partners">
+						<h2>mozilla</h2>
+					</div>
+					<div class="partners">
+						<h2>Google</h2>
+					</div>
+					<div class="partners">
+						<h2>NAVER</h2>
+					</div>
+					<div class="partners">
+						<h2>daumkakao</h2>
+					</div>
+					<div class="partners">
+						<img src="Images/pngwing.com.png" alt="airbnb" class="logo" id="airbnb" />
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+	<footer class="hide">
+		<div id="logo-footer">
+			<img src="Images/torii (1).png" alt="logo" class="logo" />
+			<h1>Japan</h1>
+		</div>
+		<div id="footer-info">
+			<p>2023 National Gobernment of Japan.</p>
+			<p>Some Rights Reserved.</p>
+		</div>
+	</footer>
 </html>

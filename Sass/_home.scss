@@ -17,15 +17,113 @@ a {
   color: #272a31;
 }
 
+.text-hide {
+  display: none;
+}
+
 #hiden-header,
 #hiden-program,
+#mobile-menu,
 .hide {
   display: none;
+}
+
+#mobile-menu {
+  position: fixed;
+  z-index: 999;
+  background-color: #272a31;
+  color: white;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 20px;
+  gap: 50px;
+  animation-name: menu;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  overflow: scroll;
+
+  #x-container {
+    top: 15px;
+    left: 20px;
+    width: 35px;
+
+    .x {
+      height: 3px;
+      margin-bottom: 9.5px;
+      background-color: white;
+    }
+
+    .x:nth-child(2) {
+      background-color: #272a31;
+    }
+
+    .x:first-child {
+      animation-name: first;
+      animation-duration: 0.5s;
+      animation-timing-function: ease-in-out;
+      transform: rotate(45deg);
+      transform-origin: left;
+    }
+
+    .x:last-child {
+      animation-name: second;
+      animation-duration: 0.5s;
+      animation-timing-function: ease-in-out;
+      transform: rotate(-45deg);
+      transform-origin: left;
+    }
+  }
+
+  @keyframes first {
+    from {
+      transform: rotate(0);
+    }
+
+    to {
+      transform: rotate(45deg);
+    }
+  }
+
+  @keyframes second {
+    from {
+      transform: rotate(0);
+    }
+
+    to {
+      transform: rotate(-45deg);
+    }
+  }
+
+  @keyframes menu {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 100%;
+    }
+  }
+
+  #menu a {
+    color: #ec5242;
+  }
+
+  #menu .menu-sections {
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+  }
 }
 
 .img-activities {
   width: 100px;
   height: 100px;
+}
+
+.bar-activities {
+  width: 8%;
+  border-color: #d3d3d3;
 }
 
 #hamburger-container {
@@ -35,20 +133,32 @@ a {
   width: 35px;
 
   .hamburguer {
-    background-color: rgb(88, 88, 88);
+    background-color: rgb(39, 42, 49);
     height: 6px;
     margin-bottom: 5px;
   }
 }
 
+.hr-bar {
+  width: 30px;
+  border-color: #ec5242;
+}
+
+.title-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    padding-bottom: 10px;
+  }
+}
+
 #main-activities .activities p {
-  font-size: 0.7rem;
+  font-size: 12px;
 }
 
 #program h2 {
-  text-align: center;
-  border-bottom: 1px solid #ec5242;
-  padding-bottom: 20px;
   color: white;
 }
 
@@ -63,7 +173,7 @@ a {
 }
 
 #title {
-  background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0.8)), url("./Images/background.jpg");
+  background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0.8)), url('./Images/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 20px;
@@ -98,17 +208,19 @@ a {
 
 #program {
   background-color: #272a31;
-  background-image: url("./Images/pattern_bg.png");
+  background-image: url('./Images/pattern_bg.png');
   background-repeat: repeat;
   padding: 30px 20px;
 
   .programs {
-    font-size: 0.7rem;
+    font-size: 12px;
   }
 
   .programs .title {
+    font-family: Lato Bold, sans-serif, serif;
     color: #ec5242;
-    width: 173px;
+    width: 255px;
+    font-size: 13px;
   }
 
   #programs-container {
@@ -122,7 +234,7 @@ a {
       align-items: center;
       justify-content: center;
       gap: 10px;
-      background-color: rgba(211, 211, 211, 0.1);
+      background-color: rgba(255, 255, 255, 0.1);
       padding: 20px 20px;
     }
   }
@@ -150,20 +262,20 @@ a {
   .activities {
     display: flex;
     gap: 10px;
-    align-items: center;
+    align-items: flex-start;
 
     .h2-activities {
-      padding-bottom: 10px;
+      padding-bottom: 5px;
     }
 
     .p1-activities {
       font-family: Lato Italic, sans-serif, serif;
       color: #ec5242;
-      padding-bottom: 2px;
+      padding-bottom: 10px;
     }
 
     .p2-activities {
-      padding-top: 2px;
+      padding-top: 10px;
     }
   }
 }

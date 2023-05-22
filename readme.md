@@ -88,9 +88,9 @@ You can deploy this project using: [This Link](https://luffytaro22.github.io/Cap
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-* Desktop Version.
-* Hamburguer Menu.
-* Users Interaction.
+* Additional Pages.
+* More Animations.
+* Functionality to the More button.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -123,6 +123,7 @@ I would like to give credits to the following:
 * <a href="https://www.freepik.es/foto-gratis/te-agua-marron-fondo-ceramica_1164036.htm#query=te%20japones&position=2&from_view=search&track=ais" target="_blank" rel="noopener">xb100 in Freepik </a> for the Tea Ceremony image.
 * <a href="https://www.freepik.es/foto-gratis/flores-cerezo-castillo-himeji-japon_10824398.htm#query=sakura%20japon&position=41&from_view=search&track=ais" target="_blank" rel="noopener">tawatchai07 in Freepik </a> for the Hanami image.
 * <a href="https://www.freepik.es/foto-gratis/pagoda-roja-chureito-japon-monte-fuji-detras_8281314.htm#query=japan&position=6&from_view=search&track=sph" target="_blank" rel="noopener">wirestock in Freepik </a> for the Mount Fuji background image.
+* <a href="https://www.freepik.es/foto-gratis/pagoda-yasaka-sannen-zaka-street-kyoto-japon_10695381.htm#page=2&query=tokyo&position=29&from_view=search&track=sph">tawatchai07 in Freepik</a> for the About Page background image.
 * <a href="https://www.flaticon.es/iconos-gratis/japon" target="_blank" rel="noopener">Freepik</a> for the Torii Arch in the logo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
