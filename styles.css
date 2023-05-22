@@ -55,7 +55,11 @@ a {
   color: #272a31;
 }
 
-.text-hide {
+.text-hide,
+#main-activities .activities:nth-child(3),
+#main-activities .activities:nth-child(4),
+#main-activities .activities:nth-child(5),
+#main-activities .activities:nth-child(6) {
   display: none;
 }
 
@@ -556,6 +560,13 @@ footer {
   #hamburger-container,
   #more-button {
     display: none;
+  }
+
+  #main-activities .activities:nth-child(3),
+  #main-activities .activities:nth-child(4),
+  #main-activities .activities:nth-child(5),
+  #main-activities .activities:nth-child(6) {
+    display: flex;
   }
 
   #hiden-header {
