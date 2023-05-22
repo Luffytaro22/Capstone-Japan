@@ -87,3 +87,44 @@ activities.forEach((activity) => {
   container.appendChild(div);
   mainContainer.appendChild(container);
 });
+
+/* Select the more button */
+const moreButton = document.querySelector('#more-button button');
+const iDown = document.querySelector('#more-button i');
+const iUp = document.createElement('i');
+iUp.classList.add('fa-solid', 'fa-chevron-up');
+const activity3 = document.querySelector('.activities:nth-child(3)');
+const activity4 = document.querySelector('.activities:nth-child(4)');
+const activity5 = document.querySelector('.activities:nth-child(5)');
+const activity6 = document.querySelector('.activities:nth-child(6)');
+
+/* A function to show the hiden activities */
+function showMore() {
+  activity3.style.display = 'flex';
+  activity4.style.display = 'flex';
+  activity5.style.display = 'flex';
+  activity6.style.display = 'flex';
+
+  iDown.style.display = 'none';
+  moreButton.appendChild(iUp);
+  moreButton.textContent = 'LESS';
+
+  moreButton.addEventListener('click', hideMore);
+}
+
+/* A function that hides the activities */
+function hideMore() {
+  activity3.style.display = 'none';
+  activity4.style.display = 'none';
+  activity5.style.display = 'none';
+  activity6.style.display = 'none';
+
+  iUp.style.display = 'none';
+  iDown.style.display = 'block';
+  moreButton.appendChild(iDown);
+  moreButton.textContent = 'MORE';
+
+  moreButton.addEventListener('click', showMore);
+}
+
+moreButton.addEventListener('click', showMore);

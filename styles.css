@@ -56,10 +56,10 @@ a {
 }
 
 .text-hide,
-#main-activities .activities:nth-child(3),
-#main-activities .activities:nth-child(4),
-#main-activities .activities:nth-child(5),
-#main-activities .activities:nth-child(6) {
+.activities:nth-child(3),
+.activities:nth-child(4),
+.activities:nth-child(5),
+.activities:nth-child(6) {
   display: none;
 }
 
@@ -376,7 +376,7 @@ a {
   padding-bottom: 40px;
 }
 
-#main-activities .activities {
+.activities {
   display: flex;
   gap: 10px;
   align-items: flex-start;
