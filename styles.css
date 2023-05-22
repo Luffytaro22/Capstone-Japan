@@ -157,7 +157,6 @@ a {
 .img-activities {
   width: 100px;
   height: 100px;
-  align-self: flex-end;
 }
 
 .bar-activities {
@@ -343,7 +342,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  background-color: rgba(211, 211, 211, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 20px 20px;
 }
 
@@ -652,10 +651,6 @@ footer {
 
   #main-activities .activities {
     gap: 30px;
-  }
-
-  #main-activities .div-activities {
-    align-self: flex-end;
   }
 
   #main-activities #activities-container {
