@@ -98,21 +98,6 @@ const activity4 = document.querySelector('.activities:nth-child(4)');
 const activity5 = document.querySelector('.activities:nth-child(5)');
 const activity6 = document.querySelector('.activities:nth-child(6)');
 
-
-/* A function that hides the activities */
-function hideMore() {
-  activity3.style.display = 'none';
-  activity4.style.display = 'none';
-  activity5.style.display = 'none';
-  activity6.style.display = 'none';
-  
-  moreButton.textContent = 'MORE';
-  moreButton.appendChild(iDown);
-
-  moreButton.removeEventListener('click', hideMore);
-  moreButton.addEventListener('click', showMore);
-}
-
 /* A function to show the hiden activities */
 function showMore() {
   activity3.style.display = 'flex';
@@ -125,6 +110,21 @@ function showMore() {
 
   /* Removes and adds the event listeners */
   moreButton.removeEventListener('click', showMore);
+
+  /* A function that hides the activities */
+  function hideMore() {
+    activity3.style.display = 'none';
+    activity4.style.display = 'none';
+    activity5.style.display = 'none';
+    activity6.style.display = 'none';
+
+    moreButton.textContent = 'MORE';
+    moreButton.appendChild(iDown);
+
+    moreButton.removeEventListener('click', hideMore);
+    moreButton.addEventListener('click', showMore);
+  }
+
   moreButton.addEventListener('click', hideMore);
 }
 
