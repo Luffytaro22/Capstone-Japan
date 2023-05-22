@@ -323,6 +323,11 @@ a {
   font-size: 12px;
 }
 
+#program .programs:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+
 #program .programs .title {
   font-family: Lato Bold, sans-serif, serif;
   color: #ec5242;
