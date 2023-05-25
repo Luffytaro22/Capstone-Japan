@@ -90,7 +90,6 @@ You can deploy this project using: [This Link](https://luffytaro22.github.io/Cap
 ## 🔭 Future Features <a name="future-features"></a>
 * Additional Pages.
 * More Animations.
-* Functionality to the More button.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
