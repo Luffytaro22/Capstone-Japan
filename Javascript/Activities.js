@@ -1,4 +1,5 @@
 const mainContainer = document.querySelector('#activities-container');
+let count = 1;
 
 const activities = [
   {
@@ -71,6 +72,10 @@ activities.forEach((activity) => {
   p2.classList.add('p2-activities');
   hr.classList.add('bar-activities');
 
+  if (count >= 3) {
+    container.classList.add('hide-activities');
+  }
+
   /* Adding the content */
   h2.textContent = activity.activity;
   img.src = activity.img;
@@ -86,6 +91,7 @@ activities.forEach((activity) => {
   container.appendChild(img);
   container.appendChild(div);
   mainContainer.appendChild(container);
+  count += 1;
 });
 
 /* Select the more button */
