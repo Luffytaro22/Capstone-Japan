@@ -75,7 +75,7 @@ In order to run this project you need:
 To clone this repository to your desired folder, run the following command: <br>
 
 ```
-git clone git@github.com:Luffytaro22/Leaderboard.git
+git clone https://github.com/Luffytaro22/Capstone-Japan.git
 ```
 
 ### Deployment
